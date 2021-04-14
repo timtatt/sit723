@@ -18,5 +18,10 @@ def preprocess_question(question):
     # Remove stopwords from the set of tokens
     title_tokens.difference_update(ignore_words)
 
+    # Remove punctuation
+    alphanumeric_tokens = filter(lambda word: word.isalpha(), title_tokens)
+
     # Converting all words into their pure forms
-    return set(map(lambda word: lemmatizer.lemmatize(word.lower()), title_tokens))
+    lemmatized_tokens = map(lambda word: lemmatizer.lemmatize(word.lower()), alphanumeric_tokens)
+
+    return set(lemmatized_tokens)

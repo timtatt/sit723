@@ -11,8 +11,8 @@ model = load_model('chatbot_model.h5')
 nltk.download('punkt')
 
 intents = json.loads(open('intents.json').read())
-words = pickle.load(open('words.pkl','rb'))
-classes = pickle.load(open('classes.pkl','rb'))
+words = pickle.load(open('words.pkl', 'rb'))
+classes = pickle.load(open('classes.pkl', 'rb'))
 
 # return bag of words array: 0 or 1 for each word in the bag that exists in the sentence
 
@@ -22,7 +22,7 @@ def bag_of_words(sentence, words, show_details=True):
     # bag of words - matrix of N words, vocabulary matrix
     bag = [0]*len(words)
     for s in sentence_words:
-        for i,w in enumerate(words):
+        for i, w in enumerate(words):
             if w == s:
                 # assign 1 if current word is in the vocabulary position
                 bag[i] = 1
