@@ -1,8 +1,8 @@
 import csv
 import re
 import nltk
+import helpers
 from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
 import json
 import pickle
 
@@ -11,12 +11,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 import random
-
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
-
-lemmatizer = WordNetLemmatizer()
 
 words = set()
 classes = set()
@@ -45,20 +39,13 @@ if __name__ == "__main__":
         })
 
         for title in row['ChildTitles']:
-            # Tokenize the word into its keywords
-            title_tokens = set(nltk.word_tokenize(title))
-
-            # Remove stopwords from the set of tokens
-            title_tokens.difference_update(ignore_words)
-
-            # Converting all words into their pure forms
-            lemmatized_tokens = set(map(lambda word: lemmatizer.lemmatize(word.lower()), title_tokens))
+            title_tokens = helpers.preprocess_question(title)
 
             # Add keywords to set of words
-            words.update(lemmatized_tokens)
+            words.update(title_tokens)
 
             # Linking words to a tag
-            documents.append((lemmatized_tokens, tag))
+            documents.append((title_tokens, tag))
 
             # Adding the tag to the list of classes
             classes.add(tag)
