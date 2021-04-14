@@ -18,10 +18,14 @@ def preprocess_question(question):
     # Remove stopwords from the set of tokens
     title_tokens.difference_update(ignore_words)
 
-    # Remove punctuation
-    alphanumeric_tokens = filter(lambda word: word.isalpha(), title_tokens)
+    # Remove specific punctuation
+    title_tokens.difference_update({'.', '?', '(', ')', '/'})
 
     # Converting all words into their pure forms
-    lemmatized_tokens = map(lambda word: lemmatizer.lemmatize(word.lower()), alphanumeric_tokens)
+    lemmatized_tokens = map(lambda word: lemmatizer.lemmatize(word.lower()), title_tokens)
 
     return set(lemmatized_tokens)
+
+
+if __name__ == "__main__":
+    print(preprocess_question("Index was outside the bounds of the array error c#"))
