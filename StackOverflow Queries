@@ -1,0 +1,43 @@
+SELECT p.id, ph.Text, JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') as OriginalQuestionId FROM posts p
+INNER JOIN PostHistory ph on ph.postid = p.id 
+WHERE p.posttypeid = 1 -- q
+AND ph.PostHistoryTypeId = 10 -- closed
+AND ph.comment = 101 -- as duplicate
+AND p.CreationDate > '2021-04-01'
+
+
+
+SELECT p.id FROM Posts p
+WHERE (
+  SELECT COUNT(*) FROM PostHistory ph
+  WHERE JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') = p.id) > 0
+AND p.CreationDate > '2021-01-01'
+
+SELECT p.id FROM Posts p
+WHERE (
+  SELECT COUNT(*) FROM PostHistory ph
+  WHERE ph.PostHistoryTypeId = 10 
+  AND ph.comment = 101 
+  AND JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') = p.id) > 0
+AND p.CreationDate > '2021-01-01'
+
+
+# Combining masters with children
+
+SELECT pd.id, JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') as OriginalQuestionId 
+FROM posts pd
+INNER JOIN PostHistory ph on ph.postid = pd.id
+WHERE pd.posttypeid = 1 -- q
+AND ph.PostHistoryTypeId = 10 -- closed
+AND ph.comment = 101 -- as duplicate
+AND pd.CreationDate > '2021-04-01'
+
+UNION
+
+SELECT p.id, p.id FROM Posts p
+WHERE (
+  SELECT COUNT(*) FROM PostHistory ph
+  WHERE ph.PostHistoryTypeId = 10 
+  AND ph.Comment = 101
+  AND ph.CreationDate > '2021-04-01'
+  AND JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') = p.id) > 0
