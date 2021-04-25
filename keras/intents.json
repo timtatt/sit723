@@ -2,2028 +2,560 @@
   "intents": [
     {
       "patterns": [
-        "axios requests a cross-domain domain name to report a CORS error",
-        "Programmatic download of content on another origin (same domain, different subdomain)",
-        "Enabling CORS for specific origins BUT it allows all, why?",
-        "CORS error when calling API multiple times using a loop",
-        "How do I get the JSON string from a URL?"
+        "How to generate the Dockerfile from an official image?",
+        "Is it possible to create Dockerfile from the container/image?",
+        "If I have locally docker image. How Could I list what is installed on it?"
       ],
       "responses": [
-        "10636611"
+        "19104847"
       ],
-      "tag": "indent_0",
-      "context": [
-        ""
-      ]
+      "tag": "19104847"
     },
     {
       "patterns": [
-        "Problem with Flask: don't have a redirect to a new page",
-        "Flask : Can't get value request.method",
-        "Flask question regarding submit button and view function"
+        "Docker port networking",
+        "Dynamically bind and unbind TCP port in a running docker container",
+        "How to can I edit Docker port and args on a container? (using Dockers Desktop for Windows)",
+        "Docker: Expose running container to host"
       ],
       "responses": [
-        "11556958"
+        "19335444"
       ],
-      "tag": "indent_1",
-      "context": [
-        ""
-      ]
+      "tag": "19335444"
     },
     {
       "patterns": [
-        "Parsing thru the json and getting a particular element on gadget.io.makeRequest",
-        "Jquery or Javascript finding the index within a Array Object",
-        "Read from JSON where the name is",
-        "Javascript iterate/Loop json within json in an array",
-        "How to get a value of a key from an object which has many entries?",
-        "Javascript object property always returns undefined no matter what I do",
-        "input textarea value and change another textarea value also and when click add row button all textarea clear and add new row using react.js",
-        "How to access Javascript dict elements with jQuery?",
-        "How do I access the API response array object data?"
+        "Docker rm command throws error when using $()",
+        "unknown shorthand flag: 'a' in -aq",
+        "What is wrong with the Docker command to remove all containers?"
       ],
       "responses": [
-        "11922383"
+        "53559545"
       ],
-      "tag": "indent_2",
-      "context": [
-        ""
-      ]
+      "tag": "53559545"
     },
     {
       "patterns": [
-        ".innerHTML not appending correctly",
-        "Getting error \"cannot set property 'innerHTML' of null\"",
-        "Why my JavaScript does not work with HTML",
-        "Why does this const variable work in a function even when defined outside the function",
-        "Show a hidden div using jQuery show() not working",
-        "How to add a class to an element with Javascript?",
-        "document.body.onclick It's not work, An error message is printed",
-        "i keep getting the same error on my console",
-        "I want resize element when window size become less than 1200px but i get this \" Uncaught TypeError: Cannot read property 'style' of undefined \"",
-        "Why does this bare bones hello world Vue app fail with mount not found?"
+        "docker container ports confusion",
+        "What is the use of Expose in docker file for ASP.NET Core application",
+        "What is the purpose of the EXPOSE command in a Dockerfile?",
+        "Why expose port is not used in Dockerfile?",
+        "Difference between -p during image run and EXPOSE in dockerfile"
       ],
       "responses": [
-        "14028959"
+        "22111060"
       ],
-      "tag": "indent_3",
-      "context": [
-        ""
-      ]
+      "tag": "22111060"
     },
     {
       "patterns": [
-        "Isolating Rows Of A Dataframe in a loop based on multiple conditions",
-        "print specific column, row value from dataframe",
-        "How to make a new dataframe from old such that a particular column in new dataframe has fixed value",
-        "In a Python data frame, how do you extract a specific element in one column after finding the row that element belongs to?"
+        "Connecting to host machine with non static ip from docker-container",
+        "How to make my docker container call my API that is im my docker host?",
+        "How can a container connect to a service on the docker host?",
+        "How can I retrieve my host machines IP address from inside a docker compose file?",
+        "docker container can not connect to local postgres",
+        "Expose laptop localhost port to Docker container",
+        "How to access localhost API's inside docker container?",
+        "Docker django connect non docker postgresql",
+        "Sending a request from inside a docker container to a host spring server",
+        "How to get rid of the port when `host.docker.internal` to interact with a service running locally on my machine",
+        "How can I configure my docker-compose for connect my 'app' running in docker containner to my 'database' running in physical machine",
+        "Dockerized Django project not able to connect to host's postgres database",
+        "How connect to localhost mysql base from docker in spring application",
+        "How to connect External mysql DB to Docker Web Container",
+        "connect ECONNREFUSED 127.0.0.1:3000 error using Docker container",
+        "Connecting docker container to mongodb on localhost",
+        "Connect between client docker and postgres server on host",
+        "Can't connect to db from docker container",
+        "Dockerized springboot app connect to main MySQL",
+        "docker access outer localhost (host) ip from inside container [windows]",
+        "How to access host machine's mongo db inside docker container",
+        "connect kafka from host inside python app with docker",
+        "Connecion to mysql on host machine from a docker container not possible",
+        "Docker - Connect containers to local database",
+        "how to enable containers from docker-compose \"bridge\" network to reach out to service running on Docker host?",
+        "MySQL connection error with native database",
+        "translate localhost to host's localhost inside a docker container",
+        "Docker container can't connect to the host machine database",
+        "how do I connect a docker container to local redis server running on the host",
+        "Accessing a service host from inside a container",
+        "Can't connect node container to mysql (locally hosted mysql)?",
+        "Connection between node.js docker container and local redis server(127.0.0.1)",
+        "Communication between Docker Application and localhost application",
+        "Docker How to allow access to local ports in container?",
+        "How to send http request from docker container to the local machine?",
+        "connect php docker container to existing apache and mysql (both are not in a container)",
+        "How to connect from docker-compose to host",
+        "how does containered springboot image connect itself to mysql5.7 which runs locally?",
+        "Docker TCP client",
+        "Connection to localhost refused while running dockerised app",
+        "docker windows : how to access my localhost",
+        "How to share local Postgres database with docker?",
+        "How to connect from Docker container parse-server to a host Postgresql DB?",
+        "Connect Docker image to local Postgres",
+        "Redis connect ECONNREFUSED 127.0.0.1:6379",
+        "How to use services such as Kafka, Zookeeper and Postgres of the host sever inside a docker using docker compose?"
       ],
       "responses": [
-        "17071871"
+        "24319662"
       ],
-      "tag": "indent_4",
-      "context": [
-        ""
-      ]
+      "tag": "24319662"
     },
     {
       "patterns": [
-        "@Value and @Autowired does not work on MailSender",
-        "Why the entity manager is not injected by spring despite using @PersistenceContext Annotation?",
-        "Spring MVC 5.3.2 java.lang.NullPointerException: Cannot invoke because NULL"
+        "Error response from daemon: the daemon on this operating system does not support exporting Windows containers",
+        "How can i make docker to pull image from another host machine's local repository?",
+        "Is there a way to seamlessly transfer docker-compose containers to another host without building?",
+        "How to locally export docker image from a machine X and import and run it on machine Y?"
       ],
       "responses": [
-        "19896870"
+        "23935141"
       ],
-      "tag": "indent_5",
-      "context": [
-        ""
-      ]
+      "tag": "23935141"
     },
     {
       "patterns": [
-        "Index was outside the bounds of the array error c#",
-        "Adding object to list causes index out of range error?"
-      ],
-      "responses": [
-        "20940979"
-      ],
-      "tag": "indent_6",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to fix NullPointerException in java while inputing a integer from BufferedReader",
-        "java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.google.firebase.auth.FirebaseUser.getUid()' on a null obj",
-        "Exception in \"main\"java.lang.NullPointerException:Cannot invoke \"java.lang.Integer.intValue()\"the return value of \"java.util.Map.get(Object)\" is null",
-        "Spring security return user is null",
-        "\"java.lang.NullPointerException\" even though I am able retrieve a object",
-        "Getting NPE error when trying to mock ElasticClient in Mockito",
-        "media player service in android studio",
-        "java.lang.NullPointerException: Attempt to invoke virtual method 'long java.lang.Long.longValue()'on a null object reference?how can i fix it?please",
-        "Android google map crash",
-        "I am trying to do a data lookup in MySQL but an error comes out",
-        "android Spinner getSelection is giving error in android studio",
-        "Exception in thread \"main\" java.lang.NullPointerException at TestScores.getHighest(TestScores.java:62)",
-        "When saving the filtered image the app crash my logcat error is bellow",
-        "How can I resolve this Exception?",
-        "java.lang.NullPointerException:ImageView.setImageDrawable(android.graphics.drawable.Drawable)",
-        "NullPointerException in java.io.OutputStream.write(byte[], int, int) method",
-        "NullPointerException for comparable interface",
-        "Exception in thread \"main\" java.lang.NullPointerException : cant invoke",
-        "Get image from phone gallery",
-        "java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.CharSequence android.widget.TextView.getText()' on a null object reference",
-        "Failed to build in android studio. Can't find why it's not working",
-        "How to solve NullPointerException when I press back Button Press",
-        "Attempt to invoke virtual method 'long java.lang.Long.longValue()' on a null object reference so I'am getting this error can any help me",
-        "Getting a Null Pointer Exception when trying to add to an ArrayList in Java",
-        "java.lang.NullPointerException on a null object reference. when accessing \"kelas\" in firebase android studio",
-        "what Error Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference",
-        "Whenever app opens with chats fragment it shows the following error",
-        "Thymeleaf form sumbit button always returns null",
-        "Android application crashes in emulator with java code",
-        "null object reference when calling a method from an extended activity",
-        "Using Javafx to Draw Basic Shapes (Rectangle, Circle, Sphere)",
-        "java.lang.NullPointerException in Android Studio java",
-        "JavaFX InvocationTargetError",
-        "MYSQL Projectss",
-        "I am trying to get some data from a server using Retrofit . But I cant find where's my code is going wrong",
-        "nullpointer exception at string tokenizer",
-        "Cant setText on a textView in onCreate Method : JAVA Android",
-        "setImageRessource(R.drawable.image) in fragment crashes",
-        "App crashes when getIntent() is empty when I try to pass an image",
-        "Error when I add or remove elements from an arraylist",
-        "hello i am trying to call method in a string but i am facing error method invocation may produce",
-        "Why does this debug show java.lang.NullPointerException: Attempt to invoke interface method 'boolean java.util.List.add(java.lang.Object)",
-        "How to get values from JTable's row then assign them to an array?",
-        "Null pointer exception trying to read a YML file",
-        "Updating an older Android app with fragments and getting NullPointerException associated with a TextView implementation",
-        "Null pointer exception on implementing banner ads",
-        "How to fix an array method throwing a NullPointerException in Java?"
-      ],
-      "responses": [
-        "218384"
-      ],
-      "tag": "indent_7",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "CSS Select sibling of element with child",
-        "Selecting parent to use `:not()` operator without child element is possible?",
-        "Remove grid, If grid element is empty?"
-      ],
-      "responses": [
-        "1014861"
-      ],
-      "tag": "indent_8",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How do I populate my html dropdown menu with data from the database?",
-        "INSERT MySQL statement: current values and selected value INTO VALUES from same table",
-        "PDO and Firebird prepared SELECT query with LIKE is not working",
-        "php - insert form not working where adding to primary key in SQL table"
-      ],
-      "responses": [
-        "11321491"
-      ],
-      "tag": "indent_9",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How can i make my search button connect to my navicat database",
-        "Call to undefined function mysql_connect php problem"
-      ],
-      "responses": [
-        "12859942"
-      ],
-      "tag": "indent_10",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Javascript return value from async subfunction only when it has finished",
-        "react useState and useEffect quickie",
-        "Unable to return a value in a nested function from changing a variable (Javascript)",
-        "NodeJS async/await for databases",
-        "How can I pass a variable from an ajax success scope to a global scope?",
-        "Async in a serial queue bug",
-        "Asynchronicity within ExpressJS route",
-        "getting npm trash return value",
-        "JS - Reassign String",
-        "How to get return value of a function in JavaScript?",
-        "Getting a value outside of a function (NodeJS/Express)",
-        "promise {<pending>} - async function return await",
-        "Why is my JavaScript asynchronous function not running till everything else finishes?",
-        "How to make my code wait for axios call to finish before continuing",
-        "select json object, then turn it into a variable",
-        "Node.js - Save return value from request as variable",
-        "Accessing AJAX response outside of the ajax scope",
-        "How to get the data out of a Promise with axios",
-        "Returning data from inside axios post request",
-        "retrieving returned values from function asynchronously nodejs",
-        "Node JS function return undefined variable",
-        "how to return the response of my callback inside a async/await?",
-        "fileReader.readAsText is not working as expected",
-        "Why is the variable always undefined?",
-        "Return a value from sub function in async parent function",
-        "Return array when last function is finished",
-        "How can I make the popup code wait for the background code to finish before moving to the next line?",
-        "created a basic file checker but doesn't detect conditional logic?",
-        "Why promise returned by axios.get is not resolved?",
-        "React fetching data twice",
-        "How to wait for a line of code to finish executing and then go on to the next line in a function? javascript/nodejs"
-      ],
-      "responses": [
-        "14220321"
-      ],
-      "tag": "indent_11",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to make python open command reuse info",
-        "Python (Selenium) script overwriting file"
-      ],
-      "responses": [
-        "1466000"
-      ],
-      "tag": "indent_12",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Python: Why don't I get the expected output with this regex?",
-        "Regex locate number followed by space followed by character"
-      ],
-      "responses": [
-        "15863066"
-      ],
-      "tag": "indent_13",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Python Coroutine stopping whole program",
-        "How to interrupt pygame.time.delay()? (similar to time.sleep)"
-      ],
-      "responses": [
-        "18839039"
-      ],
-      "tag": "indent_14",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Problem with executing Python code in Sublime Text 3",
-        "Pygame window isn't appearing"
-      ],
-      "responses": [
-        "19254765"
-      ],
-      "tag": "indent_15",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Problems with if/elif/else statement in messaging application",
-        "Why does this code show \"YES\" for everything?",
-        "Why does the and comparison work here instead of the or comparison?"
-      ],
-      "responses": [
-        "20002503"
-      ],
-      "tag": "indent_16",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Servlet is not responding when I click submit button",
-        "The requested resource [/ServletTamil_war_exploded/hello-servlet] is not available"
-      ],
-      "responses": [
-        "11731377"
-      ],
-      "tag": "indent_17",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Copying array values to multiple arrays",
-        "JS how to deep copy two objects"
-      ],
-      "responses": [
-        "122102"
-      ],
-      "tag": "indent_18",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why does this code return None when before returning i print the variable and it is not None",
-        "Why it is printing None even if I am returning list of tuples?"
-      ],
-      "responses": [
-        "17778372"
-      ],
-      "tag": "indent_19",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Transform list into a tree (tree node) - JavaScript",
-        "How do I output the child array correctly?"
-      ],
-      "responses": [
-        "18017869"
-      ],
-      "tag": "indent_20",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why the state of this component is undefined?",
-        "TypeError: [some function] is not a function in an angular service",
-        "Why 'this' is different in React class than in Js event handler?",
-        "How to call a Class Function inside a Class in function"
-      ],
-      "responses": [
-        "20279484"
-      ],
-      "tag": "indent_21",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "is there way to find an object from javascript array",
-        "javascript function to determine if an array contains a value"
-      ],
-      "responses": [
-        "237104"
-      ],
-      "tag": "indent_22",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "why isn't my php email form not sending emails?",
-        "send mail locally in php from html by using wampserver doesn't work",
-        "php formular to email, email won't send to me",
-        "Php mail cannot send to G mail and Hot mail",
-        "Mail in PHP not sending email",
-        "what parameters to set for mail() in php"
-      ],
-      "responses": [
-        "24644436"
-      ],
-      "tag": "indent_23",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Javascript 'Callback' function not working with map function",
-        "Array.every returns false when it should return true",
-        "Error with ternary conditional in reduce, javascript"
-      ],
-      "responses": [
-        "28889450"
-      ],
-      "tag": "indent_24",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "CSS - styling every nth column in a table",
-        "Apply CSS for n-items"
-      ],
-      "responses": [
-        "32623568"
-      ],
-      "tag": "indent_25",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "I want to map N functions to N buttons in PyQt5 code with for loops",
-        "Is there a reason my for loop and function arguments are not functioning as intended? PyQT"
-      ],
-      "responses": [
-        "33983980"
-      ],
-      "tag": "indent_26",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to set the state of parent component in react from inside child component",
-        "Change object passed by parent"
-      ],
-      "responses": [
-        "35537229"
-      ],
-      "tag": "indent_27",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "React Hook UseState doen't set the value after calling",
-        "elements were not added an array on a react state"
-      ],
-      "responses": [
-        "41446560"
-      ],
-      "tag": "indent_28",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "I am getting failed to fetch.....data \"control- allow-origin-header",
-        "XAMPP - Website is working but not loading till end",
-        "Using Ajax to do a payflow transparent redirect"
-      ],
-      "responses": [
-        "43871637"
-      ],
-      "tag": "indent_29",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Fetch data from external file in Vue.js",
-        "Return the value of a promise",
-        "Getting a property's property of an element using Puppeteer"
-      ],
-      "responses": [
-        "51338277"
-      ],
-      "tag": "indent_30",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Return result from async function javascript",
-        "Console.log() returning undefined after giving a value to the variable",
-        "Cannot send correct response when dealing with queries with MySQL",
-        "Getting an Empty array even after pushing objects into array?",
-        "Cannot handle ajax asynchronous behaviour",
-        "JS .includes() method to search on a string variable created from a text file using jQuery.get",
-        "Async function does not run in while loop until after the loop breaks",
-        "How to pass variables from axios request to state",
-        "I have an variable outside the function, but inside the function, the value gets another value, but how do I get the new value outside the function JS",
-        "How can I update the global variable from inside a function",
-        "the array is defined in the Ajax function but does not represent anything outside of it in js",
-        "Send two messages to background script and wait for one to finish before the other is executed",
-        "chromhow to get value from chrome.storage.local in Google Chrome extension develop code",
-        "JavaScript: fetch data => push Array returns wrong array",
-        "How to Make axios get api request Synchronous",
-        "How to wait for asynchronous data in angular",
-        "JavaScript Array returning 0 but has data"
-      ],
-      "responses": [
-        "23667086"
-      ],
-      "tag": "indent_31",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Replacing single elment if a 2D list made with `For loop` vs made by element multiplication in python",
-        "Overwriting a string inside a list of lists more than one list gets overwritten",
-        "Multi index list value substitution bug"
-      ],
-      "responses": [
-        "240178"
-      ],
-      "tag": "indent_32",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Python: update class attribute by class method",
-        "How to change the specific values within a dictionary of lists in python",
-        "Changes on a list appear on a another list"
-      ],
-      "responses": [
-        "2612802"
-      ],
-      "tag": "indent_33",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why isn't my nested await function awaiting",
-        "Nodejs api not giving expected result",
-        "Assigning Variable to Async Function Value",
-        "Not getting expected result from node",
-        "Node js - get product name from product ID then merge associative json array"
-      ],
-      "responses": [
-        "31426740"
-      ],
-      "tag": "indent_34",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Access to XMLHttpRequest at XY error only in JavaScript - not in Postman",
-        "Getting Image Src from Fetch API Data Not Working",
-        "Access-Control-Allow-Origin is present in the code",
-        "How do I send a file to the api upload server?",
-        "CORS policy: Response to preflight request doesn't pass access control check: It does not have HTTP ok status. Angular HttpClient"
-      ],
-      "responses": [
-        "35553500"
-      ],
-      "tag": "indent_35",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why m I getting different results for the same regex splitting function?",
-        "RexExp replaceAll: Slash not replaced"
-      ],
-      "responses": [
-        "3697202"
-      ],
-      "tag": "indent_36",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why does changing second state variable in React cause changes in first state variable to take effect?",
-        "React .map is not re-rendering"
-      ],
-      "responses": [
-        "37755997"
-      ],
-      "tag": "indent_37",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Array has an element at 0, but when put in console.log is undefined",
-        "Why are GetElementsByClassName dissapearing?",
-        "Javascript Array push does not modify the array"
-      ],
-      "responses": [
-        "38660832"
-      ],
-      "tag": "indent_38",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Array spread syntax javascript",
-        "How to concat bunch of arrays inside and object"
-      ],
-      "responses": [
-        "10865025"
-      ],
-      "tag": "indent_39",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "problem using two and's while searching a list in python",
-        "How to check list elements?",
-        "Why does the same function run on different function call?",
-        "Is it possible to take two different input string from user to apply the same process? (Python)",
-        "While Loop in python is not working the way I intend it to",
-        "Python syntax error when using boolean variable"
-      ],
-      "responses": [
-        "15112125"
-      ],
-      "tag": "indent_40",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "PHP can't connect MySQL with localhost",
-        "Warning: mysqli_connect(): (HY000/2002): No such file or directory in",
-        "Warning: mysqli_connect(): (HY000/2002): No such file or directory in [link to project folder]"
-      ],
-      "responses": [
-        "20073168"
-      ],
-      "tag": "indent_41",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "php html on click event not working when json",
-        "jQuery .find() not working with dynamically added elements",
-        "jQuery selectors not working for PHP-echoed elements",
-        "Add eventListener only if the element is in dom",
-        "How to get value of appended element in JS or jQuery?",
-        "Button from a ajax post page doesnt work when clicked"
-      ],
-      "responses": [
-        "203198"
-      ],
-      "tag": "indent_42",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "\"in cannot be resolved to a variable\" error showing while write this code in Eclipse (maven project using spring boot)",
-        "Cannot Resolve Symbol 'name' and 'id'",
-        "Cannot resolve symbol 'CustomPane' in javaFX",
-        "I returned an array, but when I try to copy over that array NetBeans cannot find the symbol",
-        "Why won't it detect symbol? (jdoodle.com) (java)",
-        "Cannot resolve to a type",
-        "java problem with ArrayList after trying everything: cannot find symbol"
-      ],
-      "responses": [
-        "25706216"
-      ],
-      "tag": "indent_43",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to iterate JSONObject inside value contain array",
-        "Is it possible to convert this String to a HashMap or something that will let me access the value from the key?"
-      ],
-      "responses": [
-        "2591098"
-      ],
-      "tag": "indent_44",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Placing Box In CSS",
-        "how to center element between two floats"
-      ],
-      "responses": [
-        "2603700"
-      ],
-      "tag": "indent_45",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How can I get actual values from pandas df in sns.distplot displayed on x axis",
-        "how can I change 'plt.plot' legend?",
-        "Why is Matplotlib Bar plot cutting out high values even if Y lim is specified?"
-      ],
-      "responses": [
-        "28371674"
-      ],
-      "tag": "indent_46",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Inheriting form two classes in python with super. can you call parent init methods with super()?",
-        "Inheriting multiple classes in python with super. Only first one attributes are inherited"
-      ],
-      "responses": [
-        "3277367"
-      ],
-      "tag": "indent_47",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Is there any reason I should stick strictly to \"data-\" attributes for custom attributes?",
-        "Is using <name> attributes inside <span>s considered bad practice, and why?"
-      ],
-      "responses": [
-        "33151713"
-      ],
-      "tag": "indent_48",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Css flex left and center alignments",
-        "Aligning 2 text fields on a single button CSS"
-      ],
-      "responses": [
-        "38948102"
-      ],
-      "tag": "indent_49",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Regex for single digit catches two digit numbers?",
-        "Regex for single digit catches two digit numbers?"
-      ],
-      "responses": [
-        "39351442"
-      ],
-      "tag": "indent_50",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "SQL: where condition with all",
-        "SQL - AND Filter first table by second table's records (Trivial or not?)"
-      ],
-      "responses": [
-        "4047484"
-      ],
-      "tag": "indent_51",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How do I use a JavaScript code to several classes with the same name",
-        "How to toggle a CSS class on a DIV when a button was clicked?",
-        "how can fixed this GetAttrubiute",
-        "How to get the width of an inline CSS width in JavaScript",
-        "How to invoke a Function with an Event Handler in JavaScript?"
-      ],
-      "responses": [
-        "10693845"
-      ],
-      "tag": "indent_52",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Hovering on parent div not working as desired in Reactjs",
-        "Why can't I change the width of html buttons on class level in css?"
-      ],
-      "responses": [
-        "1126338"
-      ],
-      "tag": "indent_53",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why does Is operater give false with tuples in Python 3.0",
-        "What shall I use to compare variables? == or is?"
-      ],
-      "responses": [
-        "132988"
-      ],
-      "tag": "indent_54",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Jinja - If statement not work - Please help me",
-        "Flask error on a RESTful API using mysql error \"/flask/app.py\", line 2464, in __call__ return self.wsgi_app(environ, start_response)"
-      ],
-      "responses": [
-        "18211942"
-      ],
-      "tag": "indent_55",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Array of objects to a regular array in which the values listed are from a specific key in the objects",
-        "How to filter an array of objects only by name property? - Javascript"
-      ],
-      "responses": [
-        "19590865"
-      ],
-      "tag": "indent_56",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "NOT operator in string for Series.str.contains",
-        "is there a method to filter by value in dataframe?",
-        "Pandas How to compare 2 columns in 2 dataframes and get the unique values as a seperate dataframe?",
-        "Write a function that returns the count of the unique answers to all of the questions in a dataset",
-        "How do I filter out rows based on another data frame in Python?"
-      ],
-      "responses": [
-        "19960077"
-      ],
-      "tag": "indent_57",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Flex box shrink is not working where wrap a child, I just want box2 be 200px instead of 300px",
-        "Why is overflow hidden required to make this flex layout work properly?",
-        "Flexbox set overflow inside another flexbox with dynamic height"
-      ],
-      "responses": [
-        "36247140"
-      ],
-      "tag": "indent_58",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Object dot-notation is not working in React JSX",
-        "There is any way in javascript to access a element dynamicaly in array (eg: array.string)?",
-        "Can you make a method that changes different variables depending on a string input",
-        "Is there a Javascript equivalent to Pythons getattr() function?",
-        "How can object properties be accessed using a variable?"
-      ],
-      "responses": [
-        "4244896"
-      ],
-      "tag": "indent_59",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "I'm trying to run this program but it keeps giving me the same error. I am new to programming. Can anyone help me?",
-        "trying to print a sorted dictionary but it gives me syntax error"
-      ],
-      "responses": [
-        "50401632"
-      ],
-      "tag": "indent_60",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Is Assignment of Arrays using Array[index] mutating Array Copys?",
-        "Why you can change arrays or objects through changing function argument but not strings or numbers?"
-      ],
-      "responses": [
-        "518000"
-      ],
-      "tag": "indent_61",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Z-index issue with sibling children",
-        "Position absolute inside position relative",
-        "Order div elements with child divs in conjunction with parent divs"
-      ],
-      "responses": [
-        "54897916"
-      ],
-      "tag": "indent_62",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Problem with unity Text, NullReferenceException",
-        "How to call a bool variable in a different script unity"
-      ],
-      "responses": [
-        "62413907"
-      ],
-      "tag": "indent_63",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How can exact same value differ in math result only by changing type from int to decimal",
-        "How do I to calculate percent and round the result?"
-      ],
-      "responses": [
-        "10851273"
-      ],
-      "tag": "indent_64",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Different instances of classes inheriting from UserDict getting side effects",
-        "Python dictionary not clearing after function calls",
-        "Python class variable is shared with all instances"
-      ],
-      "responses": [
-        "1132941"
-      ],
-      "tag": "indent_65",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Cant detect if enter key got pressed after System.out.print() java",
-        "How to fix the String userName tag While Loop java",
-        "Could someone explain step by step why Scanner is skipping nextLine() after nextDouble() in this problem?",
-        "Why scanner is not working on the last string if i use string,string,int and string in Java?",
-        "String not showing up in output",
-        "here is a problem in getting the value from nextLine(); in the program in JAVA.pz look at the code",
-        "(If statements based assignment) Why this isn't working?"
-      ],
-      "responses": [
-        "13102045"
-      ],
-      "tag": "indent_66",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "how to assign hidden field value to variable without submitting in php or laravel?",
-        "How I can pass this testing javascript variable to php codeigniter model",
-        "Can PHP copy to clipboard without assistance of JS?",
-        "I want to insert a JS variables inside a php that was generated with JS",
-        "How do I use a JavaScript return in a PHP if statement?",
-        "how to compare between user input and database?"
-      ],
-      "responses": [
-        "13840429"
-      ],
-      "tag": "indent_67",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "height:100vh; going beyond window height even though max-height was set to 100%",
-        "html element only taking up top half of the screen"
-      ],
-      "responses": [
-        "1622027"
-      ],
-      "tag": "indent_68",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Change password in MySQLi table using using php",
-        "i am getting error Call to undefined function mysql_fetch_assoc() in my php project"
-      ],
-      "responses": [
-        "17498216"
-      ],
-      "tag": "indent_69",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to place a button center of a box",
-        "How to center a table that in form at middle",
-        "How to make flex children align to the middle?",
-        "CSS fontAwesome icon doesn\u00b4t center"
-      ],
-      "responses": [
-        "19026884"
-      ],
-      "tag": "indent_70",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "PHP PDO Database Not Retrieve Data",
-        "Unable to Insert Data Via PDO MySQL",
-        "SQL Statement in PHP fails during execute"
-      ],
-      "responses": [
-        "32648371"
-      ],
-      "tag": "indent_71",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why is the value assigned to all arrays instead of just the first array?",
-        "push function in Array() constructor adds it to all elements"
-      ],
-      "responses": [
-        "38940576"
-      ],
-      "tag": "indent_72",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "async await returned data issues",
-        "How to fix Object reference not set to an instance of an object when logging into website?",
-        "Getting NullReferenceException on Loading form C#",
-        "Newtonsoft Json serializer Getting NullReferenceException when using CamelCasePropertyNamesContractResolver",
-        "'System.NullReferenceException: 'Object reference not set to an instance of an object.' i get this runtime error and i don't know what ECCLevel is",
-        "Is there any other solution in Excelpackage in C# (Using OfficeOpenXml in EPPlus.dll)",
-        "Linq Where clause eventually results in NullReferenceException",
-        "Is there a way to properly save/close a workbook",
-        "Unity 3D : NullReferenceException with Player health",
-        "What can I do to remedy the situation where I \"randomly\" receive Object Reference not set",
-        ".net \"Object reference not set to an instance of an object\" when executing method from different file",
-        "Object reference not set to an instance of an object with System.NullReferenceException"
-      ],
-      "responses": [
-        "4660142"
-      ],
-      "tag": "indent_73",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Get Variable Variable in Python",
-        "Dynamically create a Dict in python",
-        "Convert a single dictionary to multiple dictionaries",
-        "How to get dynamic vars in and out of functions in python?",
-        "Assign values to variables names of a list",
-        "Assigning a variable list name when combining two lists in a for loop python"
-      ],
-      "responses": [
-        "1373164"
-      ],
-      "tag": "indent_74",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Need to dynamically name and create new arrays of items from an original array, based on item property",
-        "how to count duplicate elements child and create new ones in js"
-      ],
-      "responses": [
-        "14446511"
-      ],
-      "tag": "indent_75",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "TypeError: '<=' not supported between instances of 'str' and 'int'?",
-        "why my while loop doesn't enter if statement?",
-        "TypeError: not all arguments converted during string formatting on remainder",
-        "Is there something wring with my Python code?"
-      ],
-      "responses": [
-        "20449427"
-      ],
-      "tag": "indent_76",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "what can I do if app crashes when I scroll down?",
-        "How to take pictures after every few seconds in CameraX?",
-        "Android Studio App crashing when starting new activity and I can't pinpoint where the problem lies?",
-        "bnve must not be null in kotlin",
-        "App keeps stopping ,maybe due to Integer.parseInt()"
-      ],
-      "responses": [
-        "23353173"
-      ],
-      "tag": "indent_77",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why are my pygame sprite group enemies breaking border conditions?",
-        "Pygame sprite collision not working properly, sprite is only colliding sometimes and not at the right area"
-      ],
-      "responses": [
-        "29640685"
-      ],
-      "tag": "indent_78",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Regex breaking with some wildcard characters",
-        "Regex for matching names and space Seperated names starting with specific characters"
-      ],
-      "responses": [
-        "3561493"
-      ],
-      "tag": "indent_79",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Make distinct on linq query",
-        "How to remove duplicate domains from a large list of URLs in c#"
-      ],
-      "responses": [
-        "489258"
-      ],
-      "tag": "indent_80",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Java Maven project cannot find dependency",
-        "How build and run a java project with maven en .jar"
-      ],
-      "responses": [
-        "574594"
-      ],
-      "tag": "indent_81",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to sort the values of a dictionary by more than one value?",
-        "how to sort a list and apply that order to another list?"
-      ],
-      "responses": [
-        "6618515"
-      ],
-      "tag": "indent_82",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Jquery: Selector ID undefined into for-loop",
-        "using index twice in a loop",
-        "Why is this function not working with a dynamic variable inside setInterval?",
-        "Explanation on variables in Javascript"
-      ],
-      "responses": [
-        "750486"
-      ],
-      "tag": "indent_83",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "computer logic for \"and\" comparisons",
-        "OR results from series of boolean-returning methods"
-      ],
-      "responses": [
-        "8759868"
-      ],
-      "tag": "indent_84",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to find combinations of multidimensional array in order?",
-        "generate all unique combination of a array of size n of length k elements in javascript"
-      ],
-      "responses": [
-        "12303989"
-      ],
-      "tag": "indent_85",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Starting multiple servers using different protocols (asyncio Stream)",
-        "python asycnio start_server callback not working"
-      ],
-      "responses": [
-        "19837486"
-      ],
-      "tag": "indent_86",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "storybook I'll always be in the middle of a load",
-        "Why does this request work on postman and curl but not in React?"
-      ],
-      "responses": [
-        "20035101"
-      ],
-      "tag": "indent_87",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How to shift a column in a pandas dataframe",
-        "SettingWithCopyWarning when using np.select()"
-      ],
-      "responses": [
-        "20625582"
-      ],
-      "tag": "indent_88",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Pandas: How to use MELT after a GROUPBY",
-        "Create new columns with value of a column name and stack results Pandas",
-        "Pandas: How to transform a dataframe with 5 columns into another one with same values but other format?"
-      ],
-      "responses": [
-        "28654047"
-      ],
-      "tag": "indent_89",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Spring JPA many to many relationship is resulting in repetition of content",
-        "JPA entity JSON serialization causes StackOverflow"
-      ],
-      "responses": [
-        "3325387"
-      ],
-      "tag": "indent_90",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Java: LinkedList Insertion returns 'list is empty'",
-        "Class singleton instance, clear function on one Hashmap clears a different one"
-      ],
-      "responses": [
-        "40480"
-      ],
-      "tag": "indent_91",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Text Align Center in Inline",
-        "How to center text in html?",
-        "Use css to vertical align only some child divs below each other in parent div"
-      ],
-      "responses": [
-        "5703552"
-      ],
-      "tag": "indent_92",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Android Upload to a FTP server doesn't work",
-        "Connect to MariaDB on Raspberry PI with Android"
-      ],
-      "responses": [
-        "6343166"
-      ],
-      "tag": "indent_93",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "composition of regexp",
-        "apply a regex to the match of another regex"
-      ],
-      "responses": [
-        "7731097"
-      ],
-      "tag": "indent_94",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Gradient on rounded border CSS",
-        "Issue with CSS Gradient border radius",
-        "How to apply gredient color to border of button?"
-      ],
-      "responses": [
-        "51496204"
-      ],
-      "tag": "indent_95",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Python to exe(pyqt5,db..)",
-        "Make my python made windows app to install dependencies automatically when i open the .exe file"
-      ],
-      "responses": [
-        "5458048"
-      ],
-      "tag": "indent_96",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Why is there an array index out of bounds error here?",
-        "java.lang.ArrayIndexOutOfBoundsException: 100",
-        "Exception in thread \"main\" java.lang.IndexOutOfBoundsException: Index: 8, Size: 0 at java.util.ArrayList.rangeCheckForAdd(ArrayList.java:665)",
-        "Why this program is throwing ArrayOutOfBound Exception? (running on intelliJIDEA)",
-        "why when i run i find this error java.lang.IndexOutOfBoundsException: Index: 0, Size: 0",
-        "For loop won't sort through array to find multiple occurrences, error ArrayIndexOutOfBounds",
-        "Adding 1D array to 2D array by initializing each row of the 2D array with 1D array"
-      ],
-      "responses": [
-        "5554734"
-      ],
-      "tag": "indent_97",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Get value of multiple input fields using jquery",
-        "Replacing part of an href attribute using only Javascript",
-        "Can I choose multiple elements which has been manipulated by loop with same id by jquery selection?"
-      ],
-      "responses": [
-        "5611963"
-      ],
-      "tag": "indent_98",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "error when I try to export/import variable chrome extension",
-        "React: SyntaxError: Cannot use import statement outside a module"
-      ],
-      "responses": [
-        "58211880"
-      ],
-      "tag": "indent_99",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "You have missing dependencies! # Mandatory: spyder_kernels >=2.0.1,<2.1.0 : 2.0.1 (NOK)",
-        "Error when updating spyder to 5.0.0 with Anaconda on two different computers"
-      ],
-      "responses": [
-        "66952832"
-      ],
-      "tag": "indent_100",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Sort by multiple condition in JavaScript",
-        "Sort object array by more than one comparison in one function",
-        "Javascript sort array by multiple values"
-      ],
-      "responses": [
-        "6913512"
-      ],
-      "tag": "indent_101",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "What is causing \"class java.lang.String cannot be cast\"?",
-        "I am getting this error in android studio"
-      ],
-      "responses": [
-        "907360"
-      ],
-      "tag": "indent_102",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "CSS | why does the linear gradient do have slides when the direction is set top/bottom?",
-        "gradients mess up in firefox but not chrome"
-      ],
-      "responses": [
-        "48502338"
-      ],
-      "tag": "indent_103",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "How do I get a checkbox value the same as my state in React?",
-        "Why is my variable a different value in two different console.logs?",
-        "Dynamic CSS is \"one step\" out of sync with react state",
-        "Why is the state not being set on a component redirected to",
-        "HandleChange How to behavior useState like state in a class component The element is not update but is added",
-        "the state is wiped out when letters are put in input field",
-        "react does not update localstorage value based on state",
-        "React 17.0.1 basic onChange is not updating values into state",
-        "Not able To set value using useState inside useEffect and asynchronous function",
-        "onChange effect after second entry",
-        "Add an array to another array in React state"
-      ],
-      "responses": [
-        "54069253"
-      ],
-      "tag": "indent_104",
-      "context": [
-        ""
-      ]
-    },
-    {
-      "patterns": [
-        "Is it possible to write \"real\" async functions in node.js",
-        "Node JS Asynchronous concept"
+        "change location of image which is pulled in docker-compose",
+        "Docker does not see all disks - No space left on device",
+        "Run Docker image on /dev/shm partition"
       ],
       "responses": [
-        "54478255"
+        "24309526"
       ],
-      "tag": "indent_105",
-      "context": [
-        ""
-      ]
+      "tag": "24309526"
     },
     {
       "patterns": [
-        "Error: java.net.ConnectException: Connection refused: connect",
-        "JT400 - JDBC connection refused from IBMi machine but working from Windows machine"
+        "How can I include python module from an outer folder in the docker image?",
+        "Docker build: runnable is in parent folder",
+        "problem with Dockerfile copy folder error with absolute or relative path",
+        "Copy file with absolute path to Docker Container using a Dockerfile",
+        "How to copy files when files are in different folder than the dockerfile?",
+        "How to create a path when copying in a dockerfile?",
+        "Dockerfile - How to copy files from a local folder?",
+        "COPY command in Dockerfile. How to copy from one level up",
+        "Running docker when dockerfile is in folder inside a project and the solution includes multiple projects",
+        "Dockerfile: Copy directory from outside of docker folder",
+        "Dockerfile copy to one folder up",
+        "dockefile-copy from absolute path",
+        "Dockerfile Service failed to build: COPY failed: Forbidden path outside the build context: ../../../../*"
       ],
       "responses": [
-        "6876266"
+        "27068596"
       ],
-      "tag": "indent_106",
-      "context": [
-        ""
-      ]
+      "tag": "27068596"
     },
     {
       "patterns": [
-        "how to compare date stored in a variable to a date in database in SQL?",
-        "How can I submit the web from and can be checked it in phpMyAdmin?",
-        "You have an error in your SQL syntax; corresponds to your MySQL server version for the right syntax to use near ''2021-04-06','No')' at line 2",
-        "Insert Into returning a syntax error in SQL"
+        "What files are produced by Docker's build command and where are they stored?",
+        "Where on my drive is my docker image? (It's not under /)",
+        "Where is the location of images that i pulled from docker hub on my windows?"
       ],
       "responses": [
-        "7537377"
+        "19234831"
       ],
-      "tag": "indent_107",
-      "context": [
-        ""
-      ]
+      "tag": "19234831"
     },
     {
       "patterns": [
-        "java.lang.StringIndexOutOfBoundsException: String index out of range: 9",
-        "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1 at java.util.ArrayList.get(ArrayList.java:437)"
+        "Docker container crontab not running",
+        "How can I automatically start cron in a Docker container that is running PHP?",
+        "The crontab not running inside container",
+        "How to run a python cron application with docker?"
       ],
       "responses": [
-        "40006317"
+        "37458287"
       ],
-      "tag": "indent_108",
-      "context": [
-        ""
-      ]
+      "tag": "37458287"
     },
     {
       "patterns": [
-        "Apache Camel Redelivery policy Junit test",
-        "How do multiple thenReturn work in Mockito?"
+        "'docker image ls' gives huge <none> image list",
+        "How To Remove Anonymous Image In Docker?",
+        "docker image prune not removing intermediate images",
+        "Docker remove image and container before creating"
       ],
       "responses": [
-        "4216569"
+        "33913020"
       ],
-      "tag": "indent_109",
-      "context": [
-        ""
-      ]
+      "tag": "33913020"
     },
     {
       "patterns": [
-        "Pivot data in pandas using melt and unstack",
-        "Pandas: Rows in colum",
-        "pandas get the frequency of a column in grouped df",
-        "Pandas convert column of id's to unique columns and rows",
-        "How to convert string rows to columns?",
-        "reshape dataframe pandas with string data - no similar answers",
-        "How to set columns correctly at DataFrame",
-        "How to turn repeated index values into a new column in pandas"
+        "Flask + Nginx reverse proxy refuses to connect in docker containers",
+        "docker not able to start flask application",
+        "Not able to access running server on docker in uvicorn",
+        "How to view Dash app running in docker container",
+        "Dockerized Python Flask REST API displays \"The page isn't working",
+        "Can't see my running Docker Container on localhost",
+        "I have a web app running inside a docker container, how do I access it on localhost?",
+        "unable to connect to flask docker image",
+        "set up flask with docker",
+        "Unable to connect to flask while running on docker container",
+        "Why can't I connect to my Flask server after it's deployed in a Docker container?",
+        "How to publish flask port from container to host",
+        "\"Docker-compose run\" shows backend running but can't access from host",
+        "build docker image for datetime flask api in python",
+        "Flask API endpoint is not accessible from docker",
+        "Can't connect to docker container on localhost",
+        "Docker Container server not sending data",
+        "Run docker container on localhost",
+        "Container works but localhost says unable to connect",
+        "Imports not working with Flask in Docker (no gunicorn!)",
+        "Flask app not exposed properly on localhost",
+        "Python package run in Docker results in ERR_EMPTY_RESPONSE",
+        "Can't access React and Flask services created by Docker-Compose on Windows 10",
+        "docker-compose ports not mapping; logs shows app is running",
+        "docker container on windows does not give any response"
       ],
       "responses": [
-        "47152691"
+        "30323224"
       ],
-      "tag": "indent_110",
-      "context": [
-        ""
-      ]
+      "tag": "30323224"
     },
     {
       "patterns": [
-        "Java returning different results for same input and algorithm",
-        "Not able to read variable within if statement but can read it everywhere else",
-        "How can I come out of for loop?",
-        "Can't move between array questions, keeps getting me back to my previous activity",
-        "Quick sort StackOverflowError ascending input",
-        "Inequality, while loop and counting the score fails in fishing game in Java",
-        "Here I wrote a java function for mean calculation"
+        "Can I combine these two docker images?",
+        "Is it possible to build a docker container with two hub images (Python 3.7.3 and Ubuntu 18.0.4)?",
+        "Use features from different base dockers",
+        "Two docker images into a single docker image",
+        "Make a new container with a combination of two separate containers"
       ],
       "responses": [
-        "513832"
+        "27214757"
       ],
-      "tag": "indent_111",
-      "context": [
-        ""
-      ]
+      "tag": "27214757"
     },
     {
       "patterns": [
-        "Is it possible to 'compute' an array name (e.g. by concatenating two strings?), in order to access an existing array?",
-        "Define new variable with argument function"
+        "Unable to connect from Java to kafka running inside docker container",
+        "Connecting Kafka Producer to Kafka broker in Docker container through Java libraries",
+        "KafkaStreamApi in Docker worked, but don't consume record",
+        "Running clickhouse and Kafka in docker",
+        "cant read\\write from kafka topic",
+        "Kafka failing to connect broker on docker",
+        "KafkaProducer not reading messages",
+        "\"kafka.errors.NoBrokersAvailable: NoBrokersAvailable\" problem",
+        "Configuring listener with \"localhost\" causes a failure to retrieve meta data about the broker",
+        "Docker and VS Code Remote Containers : How to connect remote Python dev container with Kafka container",
+        "Spring Boot connect to Kafka Brokers",
+        "Spring boot and Apache Kafka via Docker compose throw LEADER_NOT_AVAILABLE of topic and Send failed error",
+        "java with kafka docker image Broker may not be available.Error",
+        "kafka docker works well on localhost but not on a remote server",
+        "How do i connect my containerised project to kafka running on localhost?",
+        "Can't correctly send to kafka-docker from network device",
+        "Kafka - Consumer failed to start: Connection refused - connect(2) for 127.0.0.1:9092",
+        "Spring can't find running kafka image",
+        "How to solve kafka.errors.KafkaTimeoutError: KafkaTimeoutError: Failed to update metadata after 60.0 secs?",
+        "How to fix error: kafka.errors.NoBrokersAvailable: NoBrokersAvailable?",
+        "Unable to create Kafka topics with Kafka and Zookeeper running on Docker",
+        "kafka container - Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available",
+        "Can't Connect to Kafka running on Docker",
+        "org.apache.spark.SparkException: java.nio.channels.ClosedChannelException",
+        "Can not connect to Kafka outside container",
+        "Accessing Kafka broker in Docker container",
+        "Kafdrop - Cannot connect to Kafka Cluster setup using bitnami/kafka",
+        "How to access Docker Kafka from host machine",
+        "Spring Kafka Group Coordinator is invalid or unavailable"
       ],
       "responses": [
-        "5187530"
+        "51630260"
       ],
-      "tag": "indent_112",
-      "context": [
-        ""
-      ]
+      "tag": "51630260"
     },
     {
       "patterns": [
-        "Python3.7, need help if == ('Nikon'): Nikon is is the veriable I and testing",
-        "Looking for a specific character in a list of strings"
+        "Django Docker app container don't open on browser after run",
+        "Run docker container with official postgres image, failed to access the container",
+        "Docker container doesn't connect to host",
+        "localhost rejects requests to a simple Docker-run node app"
       ],
       "responses": [
-        "5319922"
+        "42866013"
       ],
-      "tag": "indent_113",
-      "context": [
-        ""
-      ]
+      "tag": "42866013"
     },
     {
       "patterns": [
-        "Issue with a Regex.Split",
-        "How correctly split string In C# with delimiter"
+        "Error: pg_config executable not found in Postgres Docker container",
+        "Unable to install Psycopg2 in Docker alpine image",
+        "Problem creating a Docker container for Flask web application",
+        "Docker build getting errors after I tried to install pip install -r requirements.txt file"
       ],
       "responses": [
-        "6542996"
+        "46711990"
       ],
-      "tag": "indent_114",
-      "context": [
-        ""
-      ]
+      "tag": "46711990"
     },
     {
       "patterns": [
-        "Empty image in QClipboard",
-        "What format is an Excel cell copied as image to the clipboard and why does QMimeData show this strange behavior?"
+        "How to connect to Docker containers using hostnames from Docker host?",
+        "How do I make a Docker Compose alias available to the local machine?",
+        "How do I publish and access jenkins docker container from browser?"
       ],
       "responses": [
-        "66828571"
+        "37242217"
       ],
-      "tag": "indent_115",
-      "context": [
-        ""
-      ]
+      "tag": "37242217"
     },
     {
       "patterns": [
-        "Why is my player sprite not moving even though the computer recognizes the movement?",
-        "How to make the characters in a list moved on the screen"
+        "How to start a nginx Docker container?",
+        "Docker build in command prompt",
+        "Docker Installation Error on Step 1/11 ./bin/acore-docker-build"
       ],
       "responses": [
-        "9961563"
+        "48066994"
       ],
-      "tag": "indent_116",
-      "context": [
-        ""
-      ]
+      "tag": "48066994"
     },
     {
       "patterns": [
-        "Flask display image",
-        "The image does not show up but could recognize the filename from database",
-        "Download and Display any file in Python Flask"
+        "Updating kubernetes deployment with same image name",
+        "Forcing Kubernetes to redeploy a deployment YAML if docker image updates?",
+        "Kubernetes not updates Docker image on redeployment"
       ],
       "responses": [
-        "20646822"
+        "40366192"
       ],
-      "tag": "indent_117",
-      "context": [
-        ""
-      ]
+      "tag": "40366192"
     },
     {
       "patterns": [
-        "Python Else statement is voided",
-        "How do i make this code recognise my input?",
-        "While loop isn't terminating in first attempt",
-        "Why is my 'while' loop not working in Python?",
-        "How to continue the program while the input is incorrect in python?",
-        "How to stop the user from inputting 0 inside a random.sample call",
-        "How to efficiently confirm user input",
-        "How to stop user from entering invalid operation sign"
+        "Jenkins inside a container do not find docker command",
+        "Unable to bind docker.sock to Docker Service",
+        "Docker and Jenkins integration",
+        "How to use Docker in Jenkins from Docker (DIND: Docker in Docker)?"
       ],
       "responses": [
-        "23294658"
+        "44850565"
       ],
-      "tag": "indent_118",
-      "context": [
-        ""
-      ]
+      "tag": "44850565"
     },
     {
       "patterns": [
-        "local variable 'demo_hour' referenced before assignment tkinter",
-        "Variable assigned yet not appearing as so"
+        "Connecting to Postgres docker container from docker-compose file",
+        "Docker endpoint other compose file",
+        "Docker-Compose connect service to another network",
+        "Communication between 2 Docker Composes using Network results in \"SequelizeHostNotFoundError\""
       ],
       "responses": [
-        "370357"
+        "38088279"
       ],
-      "tag": "indent_119",
-      "context": [
-        ""
-      ]
+      "tag": "38088279"
     },
     {
       "patterns": [
-        "Why in asynchronous programming, the following two pieces of code will show different results. How to interpret these two pieces of code? or interpret",
-        "How i can return the original data of this promise data"
+        "phantom jvm memory usage, native allocations, and sizing k8s pods",
+        "Why is the java process user more memory than -XX:MaxRAM?",
+        "Java memory usage much higher than heap+nonheap",
+        "why JVM Current old generation capacity + new generation capacity+Metaspace capacity not equals physical memory",
+        "What non-heap memory allocations does the JVM makes?",
+        "java process consumes more memory over time but no memory leak",
+        "JVM in pod high memory usage",
+        "Java memory leak in non-heap space",
+        "What is affecting the JVM memory allocation to go beyond -Xmx?",
+        "K8s Pod memory is higher than JVM heap size",
+        "How to limit JVM memory consumption?",
+        "Java process memory used 3.2GB, but heap used only 1053MB, I want to know how to solve this"
       ],
       "responses": [
-        "37576685"
+        "53451103"
       ],
-      "tag": "indent_120",
-      "context": [
-        ""
-      ]
+      "tag": "53451103"
     },
     {
       "patterns": [
-        "Use a function (but nothing else) from another script",
-        "In the working world what's the global standard for structuring functions?",
-        "Importing a file in Python runs the entire file"
+        "PyQt5 could not load the platform plugin xcb",
+        "Could not load QT platform plugin \"xcb\"",
+        "Could not load Qt platform plugin \"Ubuntu 20.04\""
       ],
       "responses": [
-        "419163"
+        "24095968"
       ],
-      "tag": "indent_121",
-      "context": [
-        ""
-      ]
+      "tag": "24095968"
     },
     {
       "patterns": [
-        "How can I convert my input to the following mentioned format in JavaScript",
-        "How to combine array that has the same values in Javascript"
+        "How to configure spring-boot microservice docker container to access local mongodb database?",
+        "Access Web Application running on host on Docker Container",
+        "Connect to a local PostgreSQL database from a docker-compose service",
+        "How would I connect to a MySQL on the host machine from inside a docker kubernetes pod?"
       ],
       "responses": [
-        "48425797"
+        "31324981"
       ],
-      "tag": "indent_122",
-      "context": [
-        ""
-      ]
+      "tag": "31324981"
     },
     {
       "patterns": [
-        "NodeJS Await Within Await Unexpected Token",
-        "Node.js: Parsing error: Unexpected token admin"
+        "Is it posible to send cli proccess comand from one container to another in docker?",
+        "docker compose access shell script from other container",
+        "How to login from one container to another",
+        "is it possible to call command belonging to another container in docker"
       ],
       "responses": [
-        "49432579"
+        "43442276"
       ],
-      "tag": "indent_123",
-      "context": [
-        ""
-      ]
+      "tag": "43442276"
     },
     {
       "patterns": [
-        "Python: Map a string value from one dataframe to another dataframe using a id, while creating a new column in the older dataframe",
-        "Merge 2 DataFrames based on a column or index",
-        "Fetch ID corresponding to a value"
+        "curl: (56) Recv failure: Connection reset by peer",
+        "docker: Error response from daemon: driver failed programming external connectivity on endpoint funny_golick",
+        "devilbox_httpd_1 error address already in use"
       ],
       "responses": [
-        "53010406"
+        "37971961"
       ],
-      "tag": "indent_124",
-      "context": [
-        ""
-      ]
+      "tag": "37971961"
     },
     {
       "patterns": [
-        "How to center a horizontally scrollable (flex) div without breaking first element?",
-        "How to center a horizontally scrollable div, without cutting off the first element?"
+        "docker-compose up takes lot of time for mac but runs fine on windows",
+        "Laravel Sail / Docker is too slow on Mac: optimization possible?",
+        "Docker with WordPress Page Load is Painfully slow",
+        "Laravel Docker For Mac Very Slowly",
+        ":cached and :delegated mounted volumed performance in OSX"
       ],
       "responses": [
-        "65571854"
+        "55951014"
       ],
-      "tag": "indent_125",
-      "context": [
-        ""
-      ]
+      "tag": "55951014"
     },
     {
       "patterns": [
-        "how to change an object to array in postman in order to solve \"TypeError: tasks.map is not a function\"",
-        "Iterate through a state variable in Reactjs",
-        "Using map to get items from object containing item arrays"
+        "Dash app runs in local where as it throws error in server",
+        "OSError: [Errno 8] Exec format error - when launching Flask app",
+        "OSError: [Errno 8] Exec format error in Vagrant",
+        "Dockerize ubuntu with docker for windows",
+        "Dockerfile cannot run manage.py on Windows 10",
+        "Flask app shows error \" OSError: [Errno 8] Exec format error \" whenever i run it on virtual machine using vagrant"
       ],
       "responses": [
-        "684672"
+        "55271912"
       ],
-      "tag": "indent_126",
-      "context": [
-        ""
-      ]
+      "tag": "55271912"
     },
     {
       "patterns": [
-        "why Margin property is behaving differently in case of border and non border?",
-        "margin-top moves the entire pre-footer"
+        "Docker image white labelling",
+        "How to prevent passwordless login from docker exec?",
+        "How to prevent others from seeing code inside my container?",
+        "How to protect docker file from users within a system?",
+        "Restrict user from accessing code inside docker"
       ],
       "responses": [
-        "9519841"
+        "51552706"
       ],
-      "tag": "indent_127",
-      "context": [
-        ""
-      ]
+      "tag": "51552706"
     },
     {
       "patterns": [
-        "Can I create a Masonry layout using Tailwind CSS utility classes?",
-        "Can I create a Masonry layout using Tailwind CSS utility classes?",
-        "Flex-wrap to start at the vertical end of previous row",
-        "How to set height auto in Grid?",
-        "How to design column based css grid layout dynamically as like this screenshot?"
+        "How to set docker port after Published ports are discarded?",
+        "can I deploy docker on google cloud VM instance without host network",
+        "how to use docker bridge network on google cloud platform?"
       ],
       "responses": [
-        "44377343"
+        "56555787"
       ],
-      "tag": "indent_128",
-      "context": [
-        ""
-      ]
+      "tag": "56555787"
     },
     {
       "patterns": [
-        "unpredictable result of \"else if\" statement within a function in JS",
-        "I don't want to put `data` so many times , Is there any way to write it only once?",
-        "What is the best way to chain OR statements in Javascript?"
+        "Dockerfile fails on build - cannot connect to docker daemon",
+        "docker.sock: connect: permission denied",
+        "AWS EC2 Failed to execute script docker-compose",
+        "configuring docker to put files",
+        "when i run docker command in ubuntu20.04 LTE on virtual box , the following error came",
+        "Docker requires sudo to run",
+        "How to fix Docker : \"Got permission denied while trying to connect to the Docker daemon socket \"",
+        "New user account - permission denied to enter a docker"
       ],
       "responses": [
-        "4728144"
+        "48957195"
       ],
-      "tag": "indent_129",
-      "context": [
-        ""
-      ]
+      "tag": "48957195"
     },
     {
       "patterns": [
-        "Compare two columns of two csv files and return 3rd column in python",
-        "Compare two dataframes and get a value",
-        "pandas data frame matching rows",
-        "Pandas : Assign value to column by looking up another dataframe"
+        "Cannot find the file. ERROR during connect",
+        "error during connect: The system cannot find the file specified..,the docker client must be run elevated to connect",
+        "docker daemon is not running for windows 10"
       ],
       "responses": [
-        "53645882"
+        "52946810"
       ],
-      "tag": "indent_130",
-      "context": [
-        ""
-      ]
+      "tag": "52946810"
     },
     {
       "patterns": [
-        "Tkinter Radio button Dynamic select",
-        "Tkinter mainloop broken, messagebox keeps popping up",
-        "I tried to play the movie from the GUI but allways the movie runs before clicking on the Button",
-        "Get the value of Radiobutton Python tkinter",
-        "when I push a button in Tkinter nothing happens"
+        "Is Docker Platform Independent?",
+        "How can I run windows docker containers on linux?",
+        "Will(or When) Windows Containers be hosted on linux?"
       ],
       "responses": [
-        "5767228"
+        "42158596"
       ],
-      "tag": "indent_131",
-      "context": [
-        ""
-      ]
+      "tag": "42158596"
     },
     {
       "patterns": [
-        "issues with checking if my images collided in pygame",
-        "How do I make my sprite detect collision?"
+        "How to map a directory from docker container to host?",
+        "Docker initialize host mounted volume",
+        "Can't mount docker container's working directory to host"
       ],
       "responses": [
-        "57730329"
+        "42848279"
       ],
-      "tag": "indent_132",
-      "context": [
-        ""
-      ]
+      "tag": "42848279"
     },
     {
       "patterns": [
-        "I can\u2019t run any program in netbeans / maven/java",
-        "How can i solve this plugin issue"
+        "'cannot normalize nothing' error on Docker Hub multi-stage build with shared ARG",
+        "Not Able to use ARGUMENT for ADD command in Dockerfile",
+        "passing arguments to docker"
       ],
       "responses": [
-        "59763531"
+        "53681522"
       ],
-      "tag": "indent_133",
-      "context": [
-        ""
-      ]
+      "tag": "53681522"
     },
     {
       "patterns": [
-        "Typewriter animated effect on pygame",
-        "Why does my image keep flashing in pygame?"
+        "Where is docker volume and images created on local windows 10",
+        "I have created volumes with Docker Desktop, I see the volumes using \"docker volume ls\" but the folder in windows are empy",
+        "Docker Desktop for Windows- Where exactly the volume is present",
+        "Where Docker store volume on Windows or Mac?"
       ],
       "responses": [
-        "62120723"
+        "43181654"
       ],
-      "tag": "indent_134",
-      "context": [
-        ""
-      ]
+      "tag": "43181654"
     },
     {
       "patterns": [
-        "How to pull distinct rows based on max timestamp?",
-        "If two candidates is having max number of marks how could I grab both details in MySQL"
+        "Best way to inherit from multiple Docker images",
+        "Merging two dockerfiles in one",
+        "Combine multiple docker containers without copying"
       ],
       "responses": [
-        "7745609"
+        "39626579"
       ],
-      "tag": "indent_135",
-      "context": [
-        ""
-      ]
+      "tag": "39626579"
     },
     {
       "patterns": [
-        "How to send data from one program to an other standalone program?",
-        "Yet again: \"the JSON object must be str, bytes or bytearray, not list\" in requests library"
+        "Docker container failed to spin up",
+        "Docker Compose : Unable to start react app server",
+        "Node container is crashing without error output",
+        "React/Spring/MySQL Containerisation: Frontend Unable To Start After Pulling Image",
+        "Problem running 'react-scripts start' from docker-compose"
       ],
       "responses": [
-        "9733638"
+        "60895246"
       ],
-      "tag": "indent_136",
-      "context": [
-        ""
-      ]
+      "tag": "60895246"
     }
   ]
 }

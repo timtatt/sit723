@@ -18,7 +18,7 @@ classes = pickle.load(open('classes.pkl', 'rb'))
 
 def bag_of_words(sentence, words, show_details=True):
     # tokenize the pattern
-    sentence_words = helpers.preprocess_question(sentence)
+    sentence_words = helpers.preprocess_text(sentence)
     # bag of words - matrix of N words, vocabulary matrix
     bag = [0]*len(words)
     for s in sentence_words:
@@ -27,7 +27,7 @@ def bag_of_words(sentence, words, show_details=True):
                 # assign 1 if current word is in the vocabulary position
                 bag[i] = 1
                 if show_details:
-                    print ("found in bag: %s" % w)
+                    print("found in bag: %s" % w)
     return(np.array(bag))
 
 def predict_class(sentence, model):
@@ -46,33 +46,42 @@ def predict_class(sentence, model):
         "probability": str(x[1])
     }, results))
 
-def get_response(predictions, intents_json):
-    for intent in intents_json['intents']:
-        if intent['tag'] == predictions[0]['intent']:
-            return intent['responses'][0]
-
 def chatbot_response(msg):
     predictions = predict_class(msg, model)
-    return get_response(predictions, intents) if len(predictions) > 0 else False
+    post_ids = list(map(lambda prediction: prediction['intent'], predictions))
+    return post_ids if len(predictions) > 0 else False
 
 if __name__ == "__main__":
-    with open('../SampleDataset-ParentAndChildrenWithTitles.csv', 'r') as dataset_file:
-        dataset = list(csv.DictReader(dataset_file, skipinitialspace=True))
+    with open('../dataset.json', 'r') as dataset_file:
+        dataset = json.load(dataset_file)
 
     successes = 0
+    partial_success = 0
     matches = 0
-    for row in dataset:
-        response = chatbot_response(row['Title'])
+    for (post_id, post) in dataset.items():
+        child_title = post['Title']
+        response = chatbot_response(child_title)
         if response is not False:
             matches += 1
-            success = response == row['Id']
-            print(f"{response}, success: {response == row['Id']}")
+            success = response[0] == post_id
+            # print(f"{response}, success: {response == row['Id']}")
 
             if success:
                 successes += 1
+            elif post_id in response:
+                partial_success += 1
+            else:
+                print(f"{response}, {child_title}, success: {response == post_id}")
+        else:
+            print(f"Failed to find response {post_id}: '{child_title}'")
+            print(helpers.preprocess_text(child_title))
+
 
     print(f"{successes} successes")
     print(f"{successes / len(dataset)} success rate")
+
+    print(f"{partial_success} partial successes")
+    print(f"{partial_success / matches} partial success rate")
 
     print(f"{matches} matches")
     print(f"{successes / matches} match success rate")

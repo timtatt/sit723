@@ -1,45 +1,40 @@
-import csv
-import re
-import nltk
 import helpers
-from nltk.corpus import stopwords
 import json
 import pickle
+import random
 
 import numpy as np
+from keras.layers import Dense, Dropout
 from keras.models import Sequential
-from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
-import random
+
+import helpers
 
 words = set()
 classes = set()
 documents = []
-ignore_words = set(stopwords.words('english'))
 
 if __name__ == "__main__":
     # Processing CSV file to produce JSON model
-    with open('../SampleDataset-ParentAndChildrenWithTitles.csv', 'r') as dataset_file:
-        dataset = list(csv.DictReader(dataset_file, skipinitialspace=True))
+    with open('../dataset.json', 'r') as dataset_file:
+        dataset = json.load(dataset_file)
 
     counter = 0
 
     intents = []
-    for row in dataset:
-        row['Tags'] = re.findall("<([^>]+)>", row['Tags'])
-        row['ChildTitles'] = row['ChildTitles'].split('||')
+    for (post_id, post) in dataset.items():
+        child_titles = list(map(lambda child: child['Title'], post['Children']))
 
-        tag = "indent_" + str(counter)
+        tag = post['Id']
 
         intents.append({
-            'patterns': row['ChildTitles'],
-            'responses': [row['Id']],
+            'patterns': child_titles,
+            'responses': [post['Id']],
             'tag': tag,
-            'context': ['']
         })
 
-        for title in row['ChildTitles']:
-            title_tokens = helpers.preprocess_question(title)
+        for title in child_titles:
+            title_tokens = helpers.preprocess_text(title)
 
             # Add keywords to set of words
             words.update(title_tokens)
@@ -52,7 +47,7 @@ if __name__ == "__main__":
 
         counter += 1
 
-    # Storing the intents for further examination45\
+    # Storing the intents for further examination
     with open('intents.json', 'w+') as intents_json:
         json.dump({
             'intents': intents,
@@ -62,8 +57,9 @@ if __name__ == "__main__":
     classes = sorted(classes)
 
     print(len(documents), "documents")
-    print(len(classes), "classes", classes)
+    print(len(classes), "classes")
     print(len(words), "unique lemmatized words", words)
+    print(len(words), "words")
 
     pickle.dump(words, open('words.pkl', 'wb'))
     pickle.dump(classes, open('classes.pkl', 'wb'))
@@ -77,6 +73,7 @@ if __name__ == "__main__":
 
         # create our bag of words array with 1, if word match found in current pattern
         for w in words:
+            # word_count = pattern_words.count(w)
             bag.append(1 if w in pattern_words else 0)
 
         # output is a '0' for each tag and '1' for current tag (for each pattern)
