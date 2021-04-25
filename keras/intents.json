@@ -2,122 +2,24 @@
   "intents": [
     {
       "patterns": [
-        "How to generate the Dockerfile from an official image?",
-        "Is it possible to create Dockerfile from the container/image?",
-        "If I have locally docker image. How Could I list what is installed on it?"
+        "Should I use Docker to create Linux OS within a Linux OS?",
+        "What is the purpose of a CentOS Docker image?",
+        "Why is the Ubuntu docker image not a VM",
+        "When should I use a Docker and when should I use a Virtual Machine?",
+        "How is Docker different from a virtual machine?"
       ],
       "responses": [
-        "19104847"
+        "16047306"
       ],
-      "tag": "19104847"
+      "tag": "16047306"
     },
     {
       "patterns": [
-        "Docker port networking",
-        "Dynamically bind and unbind TCP port in a running docker container",
-        "How to can I edit Docker port and args on a container? (using Dockers Desktop for Windows)",
-        "Docker: Expose running container to host"
-      ],
-      "responses": [
-        "19335444"
-      ],
-      "tag": "19335444"
-    },
-    {
-      "patterns": [
-        "Docker rm command throws error when using $()",
-        "unknown shorthand flag: 'a' in -aq",
-        "What is wrong with the Docker command to remove all containers?"
-      ],
-      "responses": [
-        "53559545"
-      ],
-      "tag": "53559545"
-    },
-    {
-      "patterns": [
-        "docker container ports confusion",
-        "What is the use of Expose in docker file for ASP.NET Core application",
-        "What is the purpose of the EXPOSE command in a Dockerfile?",
-        "Why expose port is not used in Dockerfile?",
-        "Difference between -p during image run and EXPOSE in dockerfile"
-      ],
-      "responses": [
-        "22111060"
-      ],
-      "tag": "22111060"
-    },
-    {
-      "patterns": [
-        "Connecting to host machine with non static ip from docker-container",
-        "How to make my docker container call my API that is im my docker host?",
-        "How can a container connect to a service on the docker host?",
-        "How can I retrieve my host machines IP address from inside a docker compose file?",
-        "docker container can not connect to local postgres",
-        "Expose laptop localhost port to Docker container",
-        "How to access localhost API's inside docker container?",
-        "Docker django connect non docker postgresql",
-        "Sending a request from inside a docker container to a host spring server",
-        "How to get rid of the port when `host.docker.internal` to interact with a service running locally on my machine",
-        "How can I configure my docker-compose for connect my 'app' running in docker containner to my 'database' running in physical machine",
-        "Dockerized Django project not able to connect to host's postgres database",
-        "How connect to localhost mysql base from docker in spring application",
-        "How to connect External mysql DB to Docker Web Container",
-        "connect ECONNREFUSED 127.0.0.1:3000 error using Docker container",
-        "Connecting docker container to mongodb on localhost",
-        "Connect between client docker and postgres server on host",
-        "Can't connect to db from docker container",
-        "Dockerized springboot app connect to main MySQL",
-        "docker access outer localhost (host) ip from inside container [windows]",
-        "How to access host machine's mongo db inside docker container",
-        "connect kafka from host inside python app with docker",
-        "Connecion to mysql on host machine from a docker container not possible",
-        "Docker - Connect containers to local database",
-        "how to enable containers from docker-compose \"bridge\" network to reach out to service running on Docker host?",
-        "MySQL connection error with native database",
-        "translate localhost to host's localhost inside a docker container",
-        "Docker container can't connect to the host machine database",
-        "how do I connect a docker container to local redis server running on the host",
-        "Accessing a service host from inside a container",
-        "Can't connect node container to mysql (locally hosted mysql)?",
-        "Connection between node.js docker container and local redis server(127.0.0.1)",
-        "Communication between Docker Application and localhost application",
-        "Docker How to allow access to local ports in container?",
-        "How to send http request from docker container to the local machine?",
-        "connect php docker container to existing apache and mysql (both are not in a container)",
-        "How to connect from docker-compose to host",
-        "how does containered springboot image connect itself to mysql5.7 which runs locally?",
-        "Docker TCP client",
-        "Connection to localhost refused while running dockerised app",
-        "docker windows : how to access my localhost",
-        "How to share local Postgres database with docker?",
-        "How to connect from Docker container parse-server to a host Postgresql DB?",
-        "Connect Docker image to local Postgres",
-        "Redis connect ECONNREFUSED 127.0.0.1:6379",
-        "How to use services such as Kafka, Zookeeper and Postgres of the host sever inside a docker using docker compose?"
-      ],
-      "responses": [
-        "24319662"
-      ],
-      "tag": "24319662"
-    },
-    {
-      "patterns": [
-        "Error response from daemon: the daemon on this operating system does not support exporting Windows containers",
-        "How can i make docker to pull image from another host machine's local repository?",
-        "Is there a way to seamlessly transfer docker-compose containers to another host without building?",
-        "How to locally export docker image from a machine X and import and run it on machine Y?"
-      ],
-      "responses": [
-        "23935141"
-      ],
-      "tag": "23935141"
-    },
-    {
-      "patterns": [
-        "change location of image which is pulled in docker-compose",
+        "How to change docker image storage directory?",
+        "Run Docker image on /dev/shm partition",
         "Docker does not see all disks - No space left on device",
-        "Run Docker image on /dev/shm partition"
+        "change location of image which is pulled in docker-compose",
+        "How to change the docker image installation directory?"
       ],
       "responses": [
         "24309526"
@@ -126,87 +28,36 @@
     },
     {
       "patterns": [
-        "How can I include python module from an outer folder in the docker image?",
-        "Docker build: runnable is in parent folder",
-        "problem with Dockerfile copy folder error with absolute or relative path",
-        "Copy file with absolute path to Docker Container using a Dockerfile",
-        "How to copy files when files are in different folder than the dockerfile?",
-        "How to create a path when copying in a dockerfile?",
-        "Dockerfile - How to copy files from a local folder?",
-        "COPY command in Dockerfile. How to copy from one level up",
-        "Running docker when dockerfile is in folder inside a project and the solution includes multiple projects",
-        "Dockerfile: Copy directory from outside of docker folder",
-        "Dockerfile copy to one folder up",
-        "dockefile-copy from absolute path",
-        "Dockerfile Service failed to build: COPY failed: Forbidden path outside the build context: ../../../../*"
-      ],
-      "responses": [
-        "27068596"
-      ],
-      "tag": "27068596"
-    },
-    {
-      "patterns": [
-        "What files are produced by Docker's build command and where are they stored?",
-        "Where on my drive is my docker image? (It's not under /)",
-        "Where is the location of images that i pulled from docker hub on my windows?"
-      ],
-      "responses": [
-        "19234831"
-      ],
-      "tag": "19234831"
-    },
-    {
-      "patterns": [
-        "Docker container crontab not running",
-        "How can I automatically start cron in a Docker container that is running PHP?",
-        "The crontab not running inside container",
-        "How to run a python cron application with docker?"
-      ],
-      "responses": [
-        "37458287"
-      ],
-      "tag": "37458287"
-    },
-    {
-      "patterns": [
-        "'docker image ls' gives huge <none> image list",
-        "How To Remove Anonymous Image In Docker?",
-        "docker image prune not removing intermediate images",
-        "Docker remove image and container before creating"
-      ],
-      "responses": [
-        "33913020"
-      ],
-      "tag": "33913020"
-    },
-    {
-      "patterns": [
-        "Flask + Nginx reverse proxy refuses to connect in docker containers",
-        "docker not able to start flask application",
-        "Not able to access running server on docker in uvicorn",
-        "How to view Dash app running in docker container",
-        "Dockerized Python Flask REST API displays \"The page isn't working",
+        "Unable to connect to Flask application running in Docker Container",
+        "How to run Python Flask within a Docker container",
         "Can't see my running Docker Container on localhost",
+        "How to publish flask port from container to host",
+        "Why can't I connect to my Flask server after it's deployed in a Docker container?",
+        "containerising python rest services",
         "I have a web app running inside a docker container, how do I access it on localhost?",
         "unable to connect to flask docker image",
         "set up flask with docker",
+        "docker-compose ports not mapping; logs shows app is running",
+        "docker container on windows does not give any response",
+        "Flask + Nginx reverse proxy refuses to connect in docker containers",
+        "Start docker with flask application using ssl",
+        "Can't connect to docker container on localhost",
+        "Imports not working with Flask in Docker (no gunicorn!)",
+        "Container works but localhost says unable to connect",
+        "Python package run in Docker results in ERR_EMPTY_RESPONSE",
+        "Flask app not exposed properly on localhost",
+        "Can't access React and Flask services created by Docker-Compose on Windows 10",
+        "How to view Dash app running in docker container",
+        "Not able to access running server on docker in uvicorn",
+        "docker not able to start flask application",
+        "Dockerized Python Flask REST API displays \"The page isn't working",
+        "Run docker container on localhost",
         "Unable to connect to flask while running on docker container",
-        "Why can't I connect to my Flask server after it's deployed in a Docker container?",
-        "How to publish flask port from container to host",
+        "Docker Container server not sending data",
         "\"Docker-compose run\" shows backend running but can't access from host",
         "build docker image for datetime flask api in python",
         "Flask API endpoint is not accessible from docker",
-        "Can't connect to docker container on localhost",
-        "Docker Container server not sending data",
-        "Run docker container on localhost",
-        "Container works but localhost says unable to connect",
-        "Imports not working with Flask in Docker (no gunicorn!)",
-        "Flask app not exposed properly on localhost",
-        "Python package run in Docker results in ERR_EMPTY_RESPONSE",
-        "Can't access React and Flask services created by Docker-Compose on Windows 10",
-        "docker-compose ports not mapping; logs shows app is running",
-        "docker container on windows does not give any response"
+        "Deploying a minimal flask app in docker - server connection issues"
       ],
       "responses": [
         "30323224"
@@ -215,48 +66,82 @@
     },
     {
       "patterns": [
-        "Can I combine these two docker images?",
-        "Is it possible to build a docker container with two hub images (Python 3.7.3 and Ubuntu 18.0.4)?",
-        "Use features from different base dockers",
-        "Two docker images into a single docker image",
-        "Make a new container with a combination of two separate containers"
+        "docker run throw error `No such file or directory` when use 2 commands",
+        "Run inline command with pipe in docker container",
+        "docker run <IMAGE> <MULTIPLE COMMANDS>"
       ],
       "responses": [
-        "27214757"
+        "28490874"
       ],
-      "tag": "27214757"
+      "tag": "28490874"
     },
     {
       "patterns": [
-        "Unable to connect from Java to kafka running inside docker container",
-        "Connecting Kafka Producer to Kafka broker in Docker container through Java libraries",
-        "KafkaStreamApi in Docker worked, but don't consume record",
-        "Running clickhouse and Kafka in docker",
-        "cant read\\write from kafka topic",
-        "Kafka failing to connect broker on docker",
-        "KafkaProducer not reading messages",
-        "\"kafka.errors.NoBrokersAvailable: NoBrokersAvailable\" problem",
-        "Configuring listener with \"localhost\" causes a failure to retrieve meta data about the broker",
-        "Docker and VS Code Remote Containers : How to connect remote Python dev container with Kafka container",
-        "Spring Boot connect to Kafka Brokers",
-        "Spring boot and Apache Kafka via Docker compose throw LEADER_NOT_AVAILABLE of topic and Send failed error",
-        "java with kafka docker image Broker may not be available.Error",
+        "How does Java application know it is running within a Docker container",
+        "How to determine whether a process is running in a container or not (in linux)?",
+        "How to check if a process is running inside docker container?"
+      ],
+      "responses": [
+        "23513045"
+      ],
+      "tag": "23513045"
+    },
+    {
+      "patterns": [
+        "docker container with apache server gets killed",
+        "Why Docker container always exited after start?",
+        "Why docker container exits immediately"
+      ],
+      "responses": [
+        "28212380"
+      ],
+      "tag": "28212380"
+    },
+    {
+      "patterns": [
+        "How can I copy a file (.txt format) from my computer to docker container",
+        "Add files from local file system to running Docker container",
+        "Docker Tomcat container error: Caused by: java.lang.NoClassDefFoundError-- when deployed in Kubernetes",
+        "How to copy file from local to a directory in namenode Docker?",
+        "How to copy files from host to Docker container?"
+      ],
+      "responses": [
+        "22907231"
+      ],
+      "tag": "22907231"
+    },
+    {
+      "patterns": [
         "kafka docker works well on localhost but not on a remote server",
         "How do i connect my containerised project to kafka running on localhost?",
         "Can't correctly send to kafka-docker from network device",
+        "org.apache.spark.SparkException: java.nio.channels.ClosedChannelException",
+        "Can't publish to Kafka",
+        "Connecting Kafka Producer to Kafka broker in Docker container through Java libraries",
+        "java with kafka docker image Broker may not be available.Error",
+        "Can't Connect to Kafka running on Docker",
+        "Spring boot and Apache Kafka via Docker compose throw LEADER_NOT_AVAILABLE of topic and Send failed error",
         "Kafka - Consumer failed to start: Connection refused - connect(2) for 127.0.0.1:9092",
         "Spring can't find running kafka image",
+        "kafka container - Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available",
         "How to solve kafka.errors.KafkaTimeoutError: KafkaTimeoutError: Failed to update metadata after 60.0 secs?",
         "How to fix error: kafka.errors.NoBrokersAvailable: NoBrokersAvailable?",
         "Unable to create Kafka topics with Kafka and Zookeeper running on Docker",
-        "kafka container - Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available",
-        "Can't Connect to Kafka running on Docker",
-        "org.apache.spark.SparkException: java.nio.channels.ClosedChannelException",
-        "Can not connect to Kafka outside container",
         "Accessing Kafka broker in Docker container",
         "Kafdrop - Cannot connect to Kafka Cluster setup using bitnami/kafka",
         "How to access Docker Kafka from host machine",
-        "Spring Kafka Group Coordinator is invalid or unavailable"
+        "Can not connect to Kafka outside container",
+        "KafkaProducer not reading messages",
+        "\"kafka.errors.NoBrokersAvailable: NoBrokersAvailable\" problem",
+        "Running clickhouse and Kafka in docker",
+        "cant read\\write from kafka topic",
+        "Kafka failing to connect broker on docker",
+        "KafkaStreamApi in Docker worked, but don't consume record",
+        "Docker and VS Code Remote Containers : How to connect remote Python dev container with Kafka container",
+        "Spring Boot connect to Kafka Brokers",
+        "Configuring listener with \"localhost\" causes a failure to retrieve meta data about the broker",
+        "Unable to connect from Java to kafka running inside docker container",
+        "Connect to Kafka running in Docker"
       ],
       "responses": [
         "51630260"
@@ -265,10 +150,113 @@
     },
     {
       "patterns": [
+        "Docker Exec -it bash Terminal Output Improperly Formatted",
+        "Docker Container Shell Tab Hell",
+        "Missing Carriage Return in Docker for Mac Containers"
+      ],
+      "responses": [
+        "44339237"
+      ],
+      "tag": "44339237"
+    },
+    {
+      "patterns": [
+        "Create docker on Google colab",
+        "Unable to start docker in Google-Colab",
+        "Docker is not running on Colab"
+      ],
+      "responses": [
+        "60235353"
+      ],
+      "tag": "60235353"
+    },
+    {
+      "patterns": [
+        "How to enable pdo_mysql in the php docker image",
+        "PDO could not find driver ( DOCKER )",
+        "The pdo_mysql extension is not detected on Wordpress Docker container",
+        "How to install pdo driver in php docker image?"
+      ],
+      "responses": [
+        "37526509"
+      ],
+      "tag": "37526509"
+    },
+    {
+      "patterns": [
+        "How to access host network from a container form docker stack?",
+        "In .net core in docker, how can I see the host's IP adress?",
+        "How to get the IP address of the docker host from inside a docker container"
+      ],
+      "responses": [
+        "22944631"
+      ],
+      "tag": "22944631"
+    },
+    {
+      "patterns": [
+        "Docker with PHP and MySql - $servername Error",
+        "Can't connect node container to mysql (locally hosted mysql)?",
+        "Connecting to host machine with non static ip from docker-container",
+        "Communication between Docker Application and localhost application",
+        "Docker How to allow access to local ports in container?",
+        "Connection between node.js docker container and local redis server(127.0.0.1)",
+        "How to send http request from docker container to the local machine?",
+        "connect php docker container to existing apache and mysql (both are not in a container)",
+        "Docker TCP client",
+        "Connection to localhost refused while running dockerised app",
+        "Flask in Docker container access localhost",
+        "How to make my docker container call my API that is im my docker host?",
+        "How to use services such as Kafka, Zookeeper and Postgres of the host sever inside a docker using docker compose?",
+        "Connecting docker container to mongodb on localhost",
+        "Connect between client docker and postgres server on host",
+        "docker windows : how to access my localhost",
+        "How can a container connect to a service on the docker host?",
+        "How can I retrieve my host machines IP address from inside a docker compose file?",
+        "Linking Docker to local MySQL database",
+        "How connect to localhost mysql base from docker in spring application",
+        "How to connect External mysql DB to Docker Web Container",
+        "connect ECONNREFUSED 127.0.0.1:3000 error using Docker container",
+        "Unable to connect to mysql host from docker container",
+        "Connect Docker image to local Postgres",
+        "How to connect from Docker container parse-server to a host Postgresql DB?",
+        "How to share local Postgres database with docker?",
+        "Redis connect ECONNREFUSED 127.0.0.1:6379",
+        "How to connect from docker-compose to host",
+        "how does containered springboot image connect itself to mysql5.7 which runs locally?",
+        "Dockerized Django project not able to connect to host's postgres database",
+        "Sending a request from inside a docker container to a host spring server",
+        "How to get rid of the port when `host.docker.internal` to interact with a service running locally on my machine",
+        "How can I configure my docker-compose for connect my 'app' running in docker containner to my 'database' running in physical machine",
+        "how to enable containers from docker-compose \"bridge\" network to reach out to service running on Docker host?",
+        "docker container can not connect to local postgres",
+        "Expose laptop localhost port to Docker container",
+        "MySQL connection error with native database",
+        "Connecion to mysql on host machine from a docker container not possible",
+        "Docker - Connect containers to local database",
+        "Accessing a service host from inside a container",
+        "Docker container can't connect to the host machine database",
+        "how do I connect a docker container to local redis server running on the host",
+        "How to access host machine's mongo db inside docker container",
+        "connect kafka from host inside python app with docker",
+        "docker access outer localhost (host) ip from inside container [windows]",
+        "Docker django connect non docker postgresql",
+        "Can't connect to db from docker container",
+        "Dockerized springboot app connect to main MySQL",
+        "From inside of a Docker container, how do I connect to the localhost of the machine?"
+      ],
+      "responses": [
+        "24319662"
+      ],
+      "tag": "24319662"
+    },
+    {
+      "patterns": [
+        "Docker - I'm attempting to run the hello-world example from the Docker site, but localhost:4000 renders nothing",
         "Django Docker app container don't open on browser after run",
+        "localhost rejects requests to a simple Docker-run node app",
         "Run docker container with official postgres image, failed to access the container",
-        "Docker container doesn't connect to host",
-        "localhost rejects requests to a simple Docker-run node app"
+        "Docker Toolbox - Localhost not working"
       ],
       "responses": [
         "42866013"
@@ -277,110 +265,37 @@
     },
     {
       "patterns": [
-        "Error: pg_config executable not found in Postgres Docker container",
-        "Unable to install Psycopg2 in Docker alpine image",
-        "Problem creating a Docker container for Flask web application",
-        "Docker build getting errors after I tried to install pip install -r requirements.txt file"
+        "unknown shorthand flag: 'a' in -aq",
+        "Docker rm command throws error when using $()",
+        "What is wrong with the Docker command to remove all containers?",
+        "Docker unknown shorthand flag: 'a' in -aq)"
       ],
       "responses": [
-        "46711990"
+        "53559545"
       ],
-      "tag": "46711990"
+      "tag": "53559545"
     },
     {
       "patterns": [
-        "How to connect to Docker containers using hostnames from Docker host?",
-        "How do I make a Docker Compose alias available to the local machine?",
-        "How do I publish and access jenkins docker container from browser?"
+        "Docker, How can I locate the image files after pulling",
+        "Error response from daemon: the daemon on this operating system does not support exporting Windows containers",
+        "Is there a way to seamlessly transfer docker-compose containers to another host without building?",
+        "How can i make docker to pull image from another host machine's local repository?",
+        "How to locally export docker image from a machine X and import and run it on machine Y?",
+        "How to copy Docker images from one host to another without using a repository"
       ],
       "responses": [
-        "37242217"
+        "23935141"
       ],
-      "tag": "37242217"
+      "tag": "23935141"
     },
     {
       "patterns": [
-        "How to start a nginx Docker container?",
-        "Docker build in command prompt",
-        "Docker Installation Error on Step 1/11 ./bin/acore-docker-build"
-      ],
-      "responses": [
-        "48066994"
-      ],
-      "tag": "48066994"
-    },
-    {
-      "patterns": [
-        "Updating kubernetes deployment with same image name",
-        "Forcing Kubernetes to redeploy a deployment YAML if docker image updates?",
-        "Kubernetes not updates Docker image on redeployment"
-      ],
-      "responses": [
-        "40366192"
-      ],
-      "tag": "40366192"
-    },
-    {
-      "patterns": [
-        "Jenkins inside a container do not find docker command",
-        "Unable to bind docker.sock to Docker Service",
-        "Docker and Jenkins integration",
-        "How to use Docker in Jenkins from Docker (DIND: Docker in Docker)?"
-      ],
-      "responses": [
-        "44850565"
-      ],
-      "tag": "44850565"
-    },
-    {
-      "patterns": [
-        "Connecting to Postgres docker container from docker-compose file",
-        "Docker endpoint other compose file",
-        "Docker-Compose connect service to another network",
-        "Communication between 2 Docker Composes using Network results in \"SequelizeHostNotFoundError\""
-      ],
-      "responses": [
-        "38088279"
-      ],
-      "tag": "38088279"
-    },
-    {
-      "patterns": [
-        "phantom jvm memory usage, native allocations, and sizing k8s pods",
-        "Why is the java process user more memory than -XX:MaxRAM?",
-        "Java memory usage much higher than heap+nonheap",
-        "why JVM Current old generation capacity + new generation capacity+Metaspace capacity not equals physical memory",
-        "What non-heap memory allocations does the JVM makes?",
-        "java process consumes more memory over time but no memory leak",
-        "JVM in pod high memory usage",
-        "Java memory leak in non-heap space",
-        "What is affecting the JVM memory allocation to go beyond -Xmx?",
-        "K8s Pod memory is higher than JVM heap size",
-        "How to limit JVM memory consumption?",
-        "Java process memory used 3.2GB, but heap used only 1053MB, I want to know how to solve this"
-      ],
-      "responses": [
-        "53451103"
-      ],
-      "tag": "53451103"
-    },
-    {
-      "patterns": [
-        "PyQt5 could not load the platform plugin xcb",
-        "Could not load QT platform plugin \"xcb\"",
-        "Could not load Qt platform plugin \"Ubuntu 20.04\""
-      ],
-      "responses": [
-        "24095968"
-      ],
-      "tag": "24095968"
-    },
-    {
-      "patterns": [
-        "How to configure spring-boot microservice docker container to access local mongodb database?",
         "Access Web Application running on host on Docker Container",
+        "How to configure spring-boot microservice docker container to access local mongodb database?",
+        "How would I connect to a MySQL on the host machine from inside a docker kubernetes pod?",
         "Connect to a local PostgreSQL database from a docker-compose service",
-        "How would I connect to a MySQL on the host machine from inside a docker kubernetes pod?"
+        "How to access host port from docker container"
       ],
       "responses": [
         "31324981"
@@ -389,144 +304,117 @@
     },
     {
       "patterns": [
-        "Is it posible to send cli proccess comand from one container to another in docker?",
-        "docker compose access shell script from other container",
-        "How to login from one container to another",
-        "is it possible to call command belonging to another container in docker"
+        "Django container is not entirely waiting for a new postgres container",
+        "Is there a docker-compose service initialization available in version 3?",
+        "I want to start my spring boot application aftet Mysql is up and running",
+        "connecting two docker containers nodejs and mongodb",
+        "waiting service database running before others services running in Docker",
+        "Use Linux grep to check if docker-compose service is healthy",
+        "docker-compose: depends-on container runs before depended MySQL container fully initialized",
+        "How to make sure the database has been created before application connection",
+        "Waiting for database connection before starting up",
+        "Docker - need a delay before starting the container",
+        "How to prevent an application from starting before its dependencies are available",
+        "Force Docker Container to wait until Postgresql container is ready",
+        "Why the application doesn't start for the first time, but starts from the second time?",
+        "How to start container depent on other container's services in Docker Compose?",
+        "django and mysql not connect together in docker",
+        "Docker start 2 containers specific order",
+        "Force docker to wait for a specific container during docker-compose restart",
+        "How to run RabbitMQ consumer using Docker - NodeJS",
+        "Docker Compose wait for container X before starting Y"
       ],
       "responses": [
-        "43442276"
+        "31746182"
       ],
-      "tag": "43442276"
+      "tag": "31746182"
     },
     {
       "patterns": [
-        "curl: (56) Recv failure: Connection reset by peer",
-        "docker: Error response from daemon: driver failed programming external connectivity on endpoint funny_golick",
-        "devilbox_httpd_1 error address already in use"
+        "In which file (or path) are the Docker images and containers stored?",
+        "Where on my drive is my docker image? (It's not under /)",
+        "Where is the location of images that i pulled from docker hub on my windows?",
+        "Where are Docker images stored on the host machine?"
       ],
       "responses": [
-        "37971961"
+        "19234831"
       ],
-      "tag": "37971961"
+      "tag": "19234831"
     },
     {
       "patterns": [
-        "docker-compose up takes lot of time for mac but runs fine on windows",
-        "Laravel Sail / Docker is too slow on Mac: optimization possible?",
-        "Docker with WordPress Page Load is Painfully slow",
-        "Laravel Docker For Mac Very Slowly",
-        ":cached and :delegated mounted volumed performance in OSX"
+        "How can I include python module from an outer folder in the docker image?",
+        "Docker build: runnable is in parent folder",
+        "dockefile-copy from absolute path",
+        "Dockerfile Service failed to build: COPY failed: Forbidden path outside the build context: ../../../../*",
+        "Copy file with absolute path to Docker Container using a Dockerfile",
+        "problem with Dockerfile copy folder error with absolute or relative path",
+        "Dockerfile copy to one folder up",
+        "Running docker when dockerfile is in folder inside a project and the solution includes multiple projects",
+        "How to copy files when files are in different folder than the dockerfile?",
+        "Dockerfile: Copy directory from outside of docker folder",
+        "Dockerfile - How to copy files from a local folder?",
+        "COPY command in Dockerfile. How to copy from one level up",
+        "How to include files outside of Docker's build context?"
       ],
       "responses": [
-        "55951014"
+        "27068596"
       ],
-      "tag": "55951014"
+      "tag": "27068596"
     },
     {
       "patterns": [
-        "Dash app runs in local where as it throws error in server",
-        "OSError: [Errno 8] Exec format error - when launching Flask app",
-        "OSError: [Errno 8] Exec format error in Vagrant",
-        "Dockerize ubuntu with docker for windows",
-        "Dockerfile cannot run manage.py on Windows 10",
-        "Flask app shows error \" OSError: [Errno 8] Exec format error \" whenever i run it on virtual machine using vagrant"
+        "Running docker build within a shell script",
+        "AzerothCore Docker on Windows: '\\r': command not found",
+        "Are shell scripts sensitive to encoding and line endings?"
       ],
       "responses": [
-        "55271912"
+        "39527571"
       ],
-      "tag": "55271912"
+      "tag": "39527571"
     },
     {
       "patterns": [
-        "Docker image white labelling",
-        "How to prevent passwordless login from docker exec?",
-        "How to prevent others from seeing code inside my container?",
-        "How to protect docker file from users within a system?",
-        "Restrict user from accessing code inside docker"
+        "selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?",
+        "How do you set up Selenium Grid using the docker images in GitLab-CI?",
+        "Reached error page: about:neterror when trying to navigate to other tabs if there is a form submit under that tab"
       ],
       "responses": [
-        "51552706"
+        "47900844"
       ],
-      "tag": "51552706"
+      "tag": "47900844"
     },
     {
       "patterns": [
-        "How to set docker port after Published ports are discarded?",
-        "can I deploy docker on google cloud VM instance without host network",
-        "how to use docker bridge network on google cloud platform?"
+        "docker run only displays last CMD?",
+        "How can I run luigid and luigi task within docker?",
+        "Why can't I use Docker CMD multiple times to run multiple services?"
       ],
       "responses": [
-        "56555787"
+        "23692470"
       ],
-      "tag": "56555787"
+      "tag": "23692470"
     },
     {
       "patterns": [
-        "Dockerfile fails on build - cannot connect to docker daemon",
-        "docker.sock: connect: permission denied",
-        "AWS EC2 Failed to execute script docker-compose",
-        "configuring docker to put files",
-        "when i run docker command in ubuntu20.04 LTE on virtual box , the following error came",
-        "Docker requires sudo to run",
-        "How to fix Docker : \"Got permission denied while trying to connect to the Docker daemon socket \"",
-        "New user account - permission denied to enter a docker"
+        "Make a new container with a combination of two separate containers",
+        "Use features from different base dockers",
+        "Can I combine these two docker images?",
+        "Is it possible to build a docker container with two hub images (Python 3.7.3 and Ubuntu 18.0.4)?",
+        "Docker: Combine multiple images"
       ],
       "responses": [
-        "48957195"
+        "27214757"
       ],
-      "tag": "48957195"
+      "tag": "27214757"
     },
     {
       "patterns": [
-        "Cannot find the file. ERROR during connect",
-        "error during connect: The system cannot find the file specified..,the docker client must be run elevated to connect",
-        "docker daemon is not running for windows 10"
-      ],
-      "responses": [
-        "52946810"
-      ],
-      "tag": "52946810"
-    },
-    {
-      "patterns": [
-        "Is Docker Platform Independent?",
-        "How can I run windows docker containers on linux?",
-        "Will(or When) Windows Containers be hosted on linux?"
-      ],
-      "responses": [
-        "42158596"
-      ],
-      "tag": "42158596"
-    },
-    {
-      "patterns": [
-        "How to map a directory from docker container to host?",
-        "Docker initialize host mounted volume",
-        "Can't mount docker container's working directory to host"
-      ],
-      "responses": [
-        "42848279"
-      ],
-      "tag": "42848279"
-    },
-    {
-      "patterns": [
-        "'cannot normalize nothing' error on Docker Hub multi-stage build with shared ARG",
-        "Not Able to use ARGUMENT for ADD command in Dockerfile",
-        "passing arguments to docker"
-      ],
-      "responses": [
-        "53681522"
-      ],
-      "tag": "53681522"
-    },
-    {
-      "patterns": [
-        "Where is docker volume and images created on local windows 10",
+        "Docker volumn path in windows",
         "I have created volumes with Docker Desktop, I see the volumes using \"docker volume ls\" but the folder in windows are empy",
-        "Docker Desktop for Windows- Where exactly the volume is present",
-        "Where Docker store volume on Windows or Mac?"
+        "Where Docker store volume on Windows or Mac?",
+        "Where is docker volume and images created on local windows 10",
+        "Locating data volumes in Docker Desktop (Windows)"
       ],
       "responses": [
         "43181654"
@@ -535,9 +423,226 @@
     },
     {
       "patterns": [
+        "Why does a sed command work interactively but not in my script? [Updated]",
+        "How to run a sh script with CLI container using the docker exec command?",
+        "Pass commands as input to another command (su, ssh, sh, etc)"
+      ],
+      "responses": [
+        "37586811"
+      ],
+      "tag": "37586811"
+    },
+    {
+      "patterns": [
+        "Docker requires sudo to run",
+        "New user account - permission denied to enter a docker",
+        "when i run docker command in ubuntu20.04 LTE on virtual box , the following error came",
+        "configuring docker to put files",
+        "AWS EC2 Failed to execute script docker-compose",
+        "docker.sock: connect: permission denied",
+        "Dockerfile fails on build - cannot connect to docker daemon",
+        "How to fix docker: Got permission denied issue"
+      ],
+      "responses": [
+        "48957195"
+      ],
+      "tag": "48957195"
+    },
+    {
+      "patterns": [
+        "docker daemon is not running for windows 10",
+        "Cannot find the file. ERROR during connect",
+        "error during connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.38/info"
+      ],
+      "responses": [
+        "52946810"
+      ],
+      "tag": "52946810"
+    },
+    {
+      "patterns": [
+        "Docker container failed to spin up",
+        "Docker Compose : Unable to start react app server",
+        "Node container is crashing without error output",
+        "Problem running 'react-scripts start' from docker-compose",
+        "React app exiting in docker container with exit code 0"
+      ],
+      "responses": [
+        "60895246"
+      ],
+      "tag": "60895246"
+    },
+    {
+      "patterns": [
+        "How to view files inside docker image without running it?",
+        "How to inspect the resulting folder / file structure and contents of a Docker image/container?",
+        "Exploring Docker container's file system"
+      ],
+      "responses": [
+        "20813486"
+      ],
+      "tag": "20813486"
+    },
+    {
+      "patterns": [
+        "What is the use of Expose in docker file for ASP.NET Core application",
+        "Difference between -p during image run and EXPOSE in dockerfile",
+        "What is the purpose of the EXPOSE command in a Dockerfile?",
+        "Why expose port is not used in Dockerfile?",
+        "What is the difference between \"expose\" and \"publish\" in Docker?"
+      ],
+      "responses": [
+        "22111060"
+      ],
+      "tag": "22111060"
+    },
+    {
+      "patterns": [
+        "Docker remove image and container before creating",
+        "How To Remove Anonymous Image In Docker?",
+        "docker image prune not removing intermediate images",
+        "Docker remove <none> TAG images"
+      ],
+      "responses": [
+        "33913020"
+      ],
+      "tag": "33913020"
+    },
+    {
+      "patterns": [
+        "Best way to run cron in docker container",
+        "How can I automatically start cron in a Docker container that is running PHP?",
+        "How to run a python cron application with docker?",
+        "The crontab not running inside container",
+        "How to run a cron job inside a docker container?"
+      ],
+      "responses": [
+        "37458287"
+      ],
+      "tag": "37458287"
+    },
+    {
+      "patterns": [
+        "Docker build getting errors after I tried to install pip install -r requirements.txt file",
+        "Unable to install Psycopg2 in Docker alpine image",
+        "Problem creating a Docker container for Flask web application",
+        "Error: pg_config executable not found when installing psycopg2 on Alpine in Docker"
+      ],
+      "responses": [
+        "46711990"
+      ],
+      "tag": "46711990"
+    },
+    {
+      "patterns": [
+        "How to generate the Dockerfile from an official image?",
+        "Is it possible to create Dockerfile from the container/image?",
+        "How to generate a Dockerfile from an image?"
+      ],
+      "responses": [
+        "19104847"
+      ],
+      "tag": "19104847"
+    },
+    {
+      "patterns": [
+        "Connecting to Postgres docker container from docker-compose file",
+        "Communication between 2 Docker Composes using Network results in \"SequelizeHostNotFoundError\"",
+        "Docker-Compose connect service to another network",
+        "Communication between multiple docker-compose projects"
+      ],
+      "responses": [
+        "38088279"
+      ],
+      "tag": "38088279"
+    },
+    {
+      "patterns": [
+        "Restrict user from accessing code inside docker",
+        "How to prevent others from seeing code inside my container?",
+        "How to protect docker file from users within a system?",
+        "How to prevent passwordless login from docker exec?",
+        "Is distributing python source code in Docker secure?"
+      ],
+      "responses": [
+        "51552706"
+      ],
+      "tag": "51552706"
+    },
+    {
+      "patterns": [
+        "is it possible to call command belonging to another container in docker",
+        "docker compose access shell script from other container",
+        "Is it posible to send cli proccess comand from one container to another in docker?",
+        "Docker : Can a container A call an executable located on an other container B?"
+      ],
+      "responses": [
+        "43442276"
+      ],
+      "tag": "43442276"
+    },
+    {
+      "patterns": [
+        "Dynamically bind and unbind TCP port in a running docker container",
+        "Docker port networking",
+        "Docker: Expose running container to host",
+        "How do I assign a port mapping to an existing Docker container?"
+      ],
+      "responses": [
+        "19335444"
+      ],
+      "tag": "19335444"
+    },
+    {
+      "patterns": [
+        "Docker initialize host mounted volume",
+        "How to map a directory from docker container to host?",
+        "How to mount volume from container to host in Docker?"
+      ],
+      "responses": [
+        "42848279"
+      ],
+      "tag": "42848279"
+    },
+    {
+      "patterns": [
+        "How do I publish and access jenkins docker container from browser?",
+        "How do I make a Docker Compose alias available to the local machine?",
+        "Access docker container from host using containers name"
+      ],
+      "responses": [
+        "37242217"
+      ],
+      "tag": "37242217"
+    },
+    {
+      "patterns": [
+        "Unable to bind docker.sock to Docker Service",
+        "How to use Docker in Jenkins from Docker (DIND: Docker in Docker)?",
+        "Docker and Jenkins integration",
+        "Docker not found when building docker image using Docker Jenkins container pipeline"
+      ],
+      "responses": [
+        "44850565"
+      ],
+      "tag": "44850565"
+    },
+    {
+      "patterns": [
+        "The input device is not a TTY when I'm using docker?",
+        "Why run Docker container with -t?",
+        "Error \"The input device is not a TTY\""
+      ],
+      "responses": [
+        "43099116"
+      ],
+      "tag": "43099116"
+    },
+    {
+      "patterns": [
         "Best way to inherit from multiple Docker images",
         "Merging two dockerfiles in one",
-        "Combine multiple docker containers without copying"
+        "Is there a way to combine Docker images into 1 container?"
       ],
       "responses": [
         "39626579"
@@ -546,16 +651,49 @@
     },
     {
       "patterns": [
-        "Docker container failed to spin up",
-        "Docker Compose : Unable to start react app server",
-        "Node container is crashing without error output",
-        "React/Spring/MySQL Containerisation: Frontend Unable To Start After Pulling Image",
-        "Problem running 'react-scripts start' from docker-compose"
+        "docker: Error response from daemon: driver failed programming external connectivity on endpoint funny_golick",
+        "curl: (56) Recv failure: Connection reset by peer",
+        "Docker Error bind: address already in use"
       ],
       "responses": [
-        "60895246"
+        "37971961"
       ],
-      "tag": "60895246"
+      "tag": "37971961"
+    },
+    {
+      "patterns": [
+        "Will(or When) Windows Containers be hosted on linux?",
+        "Is Docker Platform Independent?",
+        "Can Windows Containers be hosted on linux?"
+      ],
+      "responses": [
+        "42158596"
+      ],
+      "tag": "42158596"
+    },
+    {
+      "patterns": [
+        "Laravel Sail / Docker is too slow on Mac: optimization possible?",
+        "docker-compose up takes lot of time for mac but runs fine on windows",
+        "Laravel Docker For Mac Very Slowly",
+        "Docker with WordPress Page Load is Painfully slow",
+        "Docker in MacOs is very slow"
+      ],
+      "responses": [
+        "55951014"
+      ],
+      "tag": "55951014"
+    },
+    {
+      "patterns": [
+        "can I deploy docker on google cloud VM instance without host network",
+        "how to use docker bridge network on google cloud platform?",
+        "can't open jupyter on google cloud platform with gpu and docker"
+      ],
+      "responses": [
+        "56555787"
+      ],
+      "tag": "56555787"
     }
   ]
 }

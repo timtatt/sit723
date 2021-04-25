@@ -24,6 +24,8 @@ if __name__ == "__main__":
     intents = []
     for (post_id, post) in dataset.items():
         child_titles = list(map(lambda child: child['Title'], post['Children']))
+        child_titles.pop(0)
+        child_titles.append(post['Title'])
 
         tag = post['Id']
 
@@ -35,6 +37,9 @@ if __name__ == "__main__":
 
         for title in child_titles:
             title_tokens = helpers.preprocess_text(title)
+
+            title_tokens = title_tokens.union(set(post['Tags']))
+            title_tokens = title_tokens.union(set(post['BodyTokens']))
 
             # Add keywords to set of words
             words.update(title_tokens)

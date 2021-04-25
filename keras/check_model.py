@@ -35,7 +35,7 @@ def predict_class(sentence, model):
     predictions = model.predict(np.array([p]))[0]
 
     # filter out predictions below a threshold
-    error_threshold = 0.25
+    error_threshold = 0.15
     results = [[i, r] for i, r in enumerate(predictions) if r > error_threshold]
 
     # sort by strength of probability
@@ -59,8 +59,8 @@ if __name__ == "__main__":
     partial_success = 0
     matches = 0
     for (post_id, post) in dataset.items():
-        child_title = post['Title']
-        response = chatbot_response(child_title)
+        test_title = post['Children'][0]['Title'] + ' ' + ' '.join(post['Children'][0]['Tags'] + post['Children'][0]['BodyTokens'])
+        response = chatbot_response(test_title)
         if response is not False:
             matches += 1
             success = response[0] == post_id
@@ -71,17 +71,24 @@ if __name__ == "__main__":
             elif post_id in response:
                 partial_success += 1
             else:
-                print(f"{response}, {child_title}, success: {response == post_id}")
+                print(f"{response}, {test_title}, success: {response == post_id}")
+                for child in dataset[post_id]['Children']:
+                    print(child['Title'], child['Tags'])
+                print('-' * 10)
+                for child in dataset[response[0]]['Children']:
+                    print(child['Title'], child['Tags'])
+                print()
+
         else:
-            print(f"Failed to find response {post_id}: '{child_title}'")
-            print(helpers.preprocess_text(child_title))
+            print(f"Failed to find response {post_id}: '{test_title}'")
+            print(helpers.preprocess_text(test_title))
 
 
     print(f"{successes} successes")
     print(f"{successes / len(dataset)} success rate")
 
     print(f"{partial_success} partial successes")
-    print(f"{partial_success / matches} partial success rate")
+    print(f"{partial_success / (matches - successes)} partial success rate")
 
     print(f"{matches} matches")
     print(f"{successes / matches} match success rate")

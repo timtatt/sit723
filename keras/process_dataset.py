@@ -2,11 +2,13 @@ import csv
 import json
 import re
 import html
+import helpers
+from keras.preprocessing.text import text_to_word_sequence
 
 if __name__ == '__main__':
     cleaned_dataset = {}
 
-    with open('../SampleDataset-4.csv', 'r') as dataset_file:
+    with open('../SampleDataset-5.csv', 'r') as dataset_file:
         dataset = list(csv.DictReader(dataset_file, skipinitialspace=True))
 
     for row in dataset:
@@ -15,7 +17,7 @@ if __name__ == '__main__':
                 'Id': row['ParentPostId'],
                 'Tags': re.findall("<([^>]+)>", row['ParentTags']),
                 'Title': row['ParentPostTitle'],
-                'Body': row['ParentBody'],
+                'BodyTokens': helpers.tokenize_body(row['Body']),
                 'Children': []
             }
 
@@ -23,12 +25,16 @@ if __name__ == '__main__':
             'Id': row['Id'],
             'Title': row['Title'],
             'Tags': re.findall("<([^>]+)>", row['Tags']),
-            'Body': html.unescape(row['Body']),
+            'BodyTokens': helpers.tokenize_body(row['Body']),
         })
 
         print("Processing", row['Id'], row['Title'])
+        # print(helpers.preprocess_text(row['Title']))
+        # print()
 
     filtered_dataset = {k: v for (k, v) in cleaned_dataset.items() if len(v['Children']) > 2}
+
+    print(len(filtered_dataset), "master questions")
 
     with open('../dataset.json', 'w+') as dataset_file:
         json.dump(filtered_dataset, dataset_file, indent=2)
