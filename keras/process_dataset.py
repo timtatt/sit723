@@ -1,14 +1,12 @@
 import csv
 import json
 import re
-import html
 import helpers
-from keras.preprocessing.text import text_to_word_sequence
 
 if __name__ == '__main__':
     cleaned_dataset = {}
 
-    with open('../SampleDataset-5.csv', 'r') as dataset_file:
+    with open('../SampleDataset-Java-1.csv', 'r') as dataset_file:
         dataset = list(csv.DictReader(dataset_file, skipinitialspace=True))
 
     for row in dataset:

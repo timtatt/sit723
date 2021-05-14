@@ -1,4 +1,3 @@
-import helpers
 import json
 import pickle
 import random
@@ -24,7 +23,6 @@ if __name__ == "__main__":
     intents = []
     for (post_id, post) in dataset.items():
         child_titles = list(map(lambda child: child['Title'], post['Children']))
-        child_titles.pop(0)
         child_titles.append(post['Title'])
 
         tag = post['Id']

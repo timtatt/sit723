@@ -1,10 +1,8 @@
 from keras.models import load_model
 import json
-import csv
 import nltk
 import numpy as np
 import pickle
-import random
 import helpers
 
 model = load_model('chatbot_model.h5')

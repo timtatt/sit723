@@ -5,8 +5,10 @@ file,document
 number,integer
 double,decimal,float
 async,asynchronous
-object,entity
+object,entity,obj,ob
 array,list
 regex,regular expression
 change,alter,modify
 directory,folder
+array,arr
+stack,stack-trace

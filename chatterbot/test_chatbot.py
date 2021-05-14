@@ -13,11 +13,11 @@ if __name__ == "__main__":
             row_results = {
                 'row': row['Id'],
                 'title': row['Title'],
-                'result': response.text,
-                'success': response.text == row['Id']
+                'result': response.sentences,
+                'success': response.sentences == row['Id']
             }
 
-            if response.text == row['Id']:
+            if response.sentences == row['Id']:
                 successes += 1
 
             results.append(row_results)
