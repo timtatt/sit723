@@ -41,3 +41,97 @@ WHERE (
   AND ph.Comment = 101
   AND ph.CreationDate > '2021-04-01'
   AND JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') = p.id) > 0
+
+
+
+SELECT p.Title, p.Body, pd.NumberOfChildren FROM Posts p
+INNER JOIN
+  (SELECT COUNT(pd.Id) AS NumberOfChildren, JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') AS OriginalPostId
+  FROM posts pd
+  INNER JOIN PostHistory ph on ph.postid = pd.id
+  WHERE pd.posttypeid = 1 -- q
+  AND ph.PostHistoryTypeId = 10 -- closed
+  AND ph.comment = 101 -- as duplicate
+  AND pd.CreationDate > '2021-04-01'
+  GROUP BY JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]')
+  HAVING COUNT(pd.Id) > 1) pd
+ON pd.OriginalPostId = p.Id
+
+
+
+# Create sample dataset 1
+SELECT p.Id, p.Title, pd.NumberOfChildren, p.Tags, pd.ChildTitles, pd.ChildIds FROM Posts p
+INNER JOIN
+  (SELECT COUNT(pd.Id) AS NumberOfChildren, 
+  JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') AS OriginalPostId,
+  STRING_AGG(pd.Title, '||') AS ChildTitles,
+  STRING_AGG(pd.Id, '||') AS ChildIds
+  FROM posts pd
+  INNER JOIN PostHistory ph on ph.postid = pd.id
+  WHERE pd.posttypeid = 1 -- q
+  AND ph.PostHistoryTypeId = 10 -- closed
+  AND ph.comment = 101 -- as duplicate
+  AND pd.CreationDate > '2021-04-01'
+  AND pd.CreationDate < '2021-04-10'
+  GROUP BY JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]')
+  HAVING COUNT(pd.Id) > 1) pd
+ON pd.OriginalPostId = p.Id
+WHERE 
+  (p.Tags LIKE '%<javascript>%'
+  OR p.Tags LIKE '%<node>%'
+  OR p.Tags LIKE '%<python>%'
+  OR p.Tags LIKE '%<java>%'
+  OR p.Tags LIKE '%<c#>%'
+  OR p.Tags LIKE '%<html>%'
+  OR p.Tags LIKE '%<css>%'
+  OR p.Tags LIKE '%<mysql>%')
+
+
+
+SELECT p.Id AS ParentPostId, 
+p.Title AS ParentPostTitle, 
+p.Tags AS ParentTags, 
+pd.Id, 
+pd.Title, 
+pd.Tags, 
+p.Body As ParentBody,
+pd.Body
+FROM Posts pd
+INNER JOIN PostHistory ph
+ON ph.postid = pd.id
+INNER JOIN Posts p
+ON JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') = p.Id
+WHERE pd.posttypeid = 1 -- q
+AND ph.PostHistoryTypeId = 10 -- closed
+AND ph.comment = 101 -- as duplicate
+AND pd.CreationDate > '2021-04-01'
+AND pd.CreationDate < '2021-04-10'
+AND (p.Tags LIKE '%<javascript>%'
+  OR p.Tags LIKE '%<node>%'
+  OR p.Tags LIKE '%<python>%'
+  OR p.Tags LIKE '%<java>%'
+  OR p.Tags LIKE '%<c#>%'
+  OR p.Tags LIKE '%<html>%'
+  OR p.Tags LIKE '%<css>%'
+  OR p.Tags LIKE '%<mysql>%')
+
+
+SELECT p.Id AS ParentPostId, 
+p.Title AS ParentPostTitle, 
+p.Tags AS ParentTags, 
+pd.Id, 
+pd.Title, 
+pd.Tags, 
+p.Body As ParentBody,
+pd.Body
+FROM Posts pd
+INNER JOIN PostHistory ph
+ON ph.postid = pd.id
+INNER JOIN Posts p
+ON JSON_VALUE(ph.Text, '$.OriginalQuestionIds[0]') = p.Id
+WHERE pd.posttypeid = 1 -- q
+AND ph.PostHistoryTypeId = 10 -- closed
+AND ph.comment = 101 -- as duplicate
+AND pd.CreationDate > '2020-01-01'
+AND pd.CreationDate < '2021-04-10'
+AND (p.Tags LIKE '%<docker>%')
